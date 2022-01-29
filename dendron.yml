@@ -11,7 +11,7 @@ site:
         - root
     siteRootDir: docs
     siteUrl: 'https://billmoriarty.github.io' 
-    assetsPrefix: /
+    assetsPrefix: /billmoriarty.github.io
     usePrettyRefs: true
     title: Dendron
     description: Personal knowledge space
