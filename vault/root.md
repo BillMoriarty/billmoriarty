@@ -1,8 +1,8 @@
 ---
 id: wn8PE1RhG0znK1alrGFYv
-title: Root
+title: Home
 desc: ''
-updated: 1643460797777
+updated: 1643461270417
 created: 1631901573363
 ---
 Hello. I work as software developer & research associate focusing on augmented reality and virtual reality. 
@@ -39,4 +39,4 @@ https://tapeop.com/searches/194699/
 
 <iframe src="https://relentless-architect-4898.ck.page/5ddeb58ffe" style="width:100%; height:500px; border:none; "></iframe>
 
-![Studio](assets/images/thespot.jpg)
+![Studio](/assets/images/thespot.jpg)
