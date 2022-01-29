@@ -13,7 +13,7 @@ site:
     siteUrl: 'https://billmoriarty.github.io' 
     # assetsPrefix: /billmoriarty.github.io
     usePrettyRefs: true
-    title: Dendron
+    title: Bill Moriarty
     description: Personal knowledge space
     siteLastModified: true
     gh_edit_branch: main
