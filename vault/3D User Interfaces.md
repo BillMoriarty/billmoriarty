@@ -2,7 +2,7 @@
 id: 3D-User-Interfaces
 title: 3D User Interfaces
 desc: ''
-updated: 1643729067561
+updated: 1643920085772
 created: 1643729067561
 ---
 
@@ -28,4 +28,3 @@ At the end of this chapter the authors arrive at this definition:
 >3D interaction: ...if a user tours a model of a building on her desktop computer by choosing viewpoints from a traditional menu, no 3D interaction has taken place. On the other hand, 3D interaction does not necessarily mean that 3D input devices are used...
 
 Good distinction between the input device and the type of interaction. I could use a 3D-capable input device to interact with a 2D environment, or a 2D input device to interact with a 3D environment.
-
