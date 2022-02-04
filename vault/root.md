@@ -2,7 +2,7 @@
 id: wn8PE1RhG0znK1alrGFYv
 title: Home
 desc: ''
-updated: 1644009458377
+updated: 1644009671550
 created: 1631901573363
 ---
 Hello. I work as software developer & research associate focusing on augmented reality and virtual reality. 
@@ -24,7 +24,7 @@ The Wisdom Seat
 https://thewisdomseat.org
 
 Podcast for The Wisdom Seat
-https://anchor.fm/the-wisdom-seat
+https://anchor.fm/the-wisdom-seaty
 
 Recording was my first love. At age 13 I got a guitar and a 4 track recorder. I have been making recordings as long as I’ve been around music.
 

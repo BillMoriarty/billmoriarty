@@ -1,5 +1,5 @@
 ---
-id: Linear Algebra
+id: Linear-Algebra
 title: Linear Algebra
 desc: ''
 updated: 1643988555106
