@@ -2,7 +2,7 @@
 id: matrix-manipulation
 title: Matrix Manipulation
 desc: ''
-updated: 1644008495678
+updated: 1644009298424
 created: 1643988598713
 ---
 
@@ -28,7 +28,7 @@ Column 1 is where i hat lands.
 Column 2 is where j hat lands. 
 
 In 2D Space:
-So, if we can describe the change to i hat and j hat, we can apply i hat & j hat's change to any vector and we'll that where that vector will land. And we can know where *every* other point will end up when the change is applied.
+So, if we can describe the change to i hat and j hat, we can apply i hat & j hat's change to any vector and we'll know where that vector will land. And we can know where *every* other point will end up when the change is applied.
 
 x(where i hat ended up), + y(where j hat ended up) ... gotta install latex here
 

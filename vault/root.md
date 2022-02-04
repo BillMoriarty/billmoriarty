@@ -2,7 +2,7 @@
 id: wn8PE1RhG0znK1alrGFYv
 title: Home
 desc: ''
-updated: 1643461270417
+updated: 1644009458377
 created: 1631901573363
 ---
 Hello. I work as software developer & research associate focusing on augmented reality and virtual reality. 
@@ -12,7 +12,6 @@ I studied computer science and software design at Temple University.
 I have made a lot of recordings as a record producer, recording engineer, mixing engineer, and sometimes a musician. You may have even heard some of them.
 
 Old podcast interviewing people changing careers into tech:
-
 https://anchor.fm/possible-paths
 
 My partner is an artist & UX designer.
@@ -23,6 +22,9 @@ I spend a lot of time volunteering with The Wisdom Seat: a group of Buddhist tea
 
 The Wisdom Seat
 https://thewisdomseat.org
+
+Podcast for The Wisdom Seat
+https://anchor.fm/the-wisdom-seat
 
 Recording was my first love. At age 13 I got a guitar and a 4 track recorder. I have been making recordings as long as I’ve been around music.
 
