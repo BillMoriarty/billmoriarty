@@ -1,5 +1,5 @@
 ---
-id: Rigidbodies
+id: unity-Rigidbodies
 title: Rigidbodies
 desc: ''
 updated: 1644346698004
