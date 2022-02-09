@@ -2,7 +2,7 @@
 id: matrix-manipulation
 title: Matrix Manipulation
 desc: ''
-updated: 1644009298424
+updated: 1644434322186
 created: 1643988598713
 ---
 
@@ -43,3 +43,19 @@ We can combine the 2 matrices that represent our individual operations into 1 ma
 
 If you change the order that you multiply the matrices, your points will end up in a different place. 
 Matrix multiplication is not commutative, but it is associative. 
+
+And for 3 dimensions, use k hat, for a 3x3 matrix.
+
+Determinant
+How much a transformation scales the are of a matrix, is called the Determinant.
+Cuts the area in half? The determinant is .5
+Triples the area? The determinant is 3.
+Space becomes a line or one point? The determinant is 0. 
+
+Negative determinant?
+Invert the orientation of space.
+The absolute value of that determinant still tells you how the area of space has been scaled.
+
+In 3D, the determinant changes the volume, instead of just the area.
+
+If you have a negative determinant in 3D, some orientation has flipped.
