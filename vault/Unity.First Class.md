@@ -2,7 +2,7 @@
 id: 9JHIp75zoPl9TuM1mdxKW
 title: Unsorted Unity Notes
 desc: ''
-updated: 1645066061462
+updated: 1645124195747
 created: 1644944601514
 ---
 
@@ -81,3 +81,31 @@ local:
 
 
 hold down Command to snap in 15 degree elements
+
+---
+
+Parent -> Child relationships
+
+If the Game Object is a child of the Parent
+And you edit the scale, rotation and position of the Parent, then the Child is moved proportionally.
+
+But when you modify the Parent's rotation such as -90, the Child's rotation can still say 0, because that is its local rotation.
+
+Pivot point is at the feet of a character.
+Center position is usually near their torso.
+
+How to snap Game Object to he plane
+- hold down V
+
+
+
+
+### Prefab Variants
+A key concept
+https://docs.unity3d.com/Manual/PrefabVariants.html
+
+
+
+### Package Manager
+
+

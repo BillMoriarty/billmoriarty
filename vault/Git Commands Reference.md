@@ -2,7 +2,7 @@
 id: git-commands-reference
 title: Git Commands Reference
 desc: ''
-updated: 1645066003898
+updated: 1645110521025
 created: 1644416082365
 ---
 
@@ -24,6 +24,9 @@ cd folder_on_your_computer_where_the_code_was_cloned
 ```
 
 
+The place online where the code was stored is called the *origin*
+
+
 ### Git Pull
 
 ### Switch to another branch
@@ -34,3 +37,4 @@ git switch type_branch_name_to_switch_to
 #if you want to create a new branch and switch to it
 git switch -c type_branch_name_to_switch_to
 ```
+
