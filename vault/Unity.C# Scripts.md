@@ -1,5 +1,5 @@
 ---
-id: C#-Scripts
+id: C-sharp-Scripts
 title: C# Scripts
 desc: ''
 updated: 1645555276968
