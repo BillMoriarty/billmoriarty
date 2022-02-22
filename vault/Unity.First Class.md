@@ -2,7 +2,7 @@
 id: 9JHIp75zoPl9TuM1mdxKW
 title: Unsorted Unity Notes
 desc: ''
-updated: 1645124195747
+updated: 1645553139671
 created: 1644944601514
 ---
 
@@ -107,5 +107,11 @@ https://docs.unity3d.com/Manual/PrefabVariants.html
 
 
 ### Package Manager
+
+---
+
+lesson 3
+
+c# in Unity
 
 
