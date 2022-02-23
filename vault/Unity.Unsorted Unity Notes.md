@@ -1,8 +1,8 @@
 ---
-id: 9JHIp75zoPl9TuM1mdxKW
+id: Unsorted-Unity-Notes
 title: Unsorted Unity Notes
 desc: ''
-updated: 1645553139671
+updated: 1645589558557
 created: 1644944601514
 ---
 
@@ -104,14 +104,5 @@ How to snap Game Object to he plane
 A key concept
 https://docs.unity3d.com/Manual/PrefabVariants.html
 
-
-
-### Package Manager
-
----
-
-lesson 3
-
-c# in Unity
 
 
