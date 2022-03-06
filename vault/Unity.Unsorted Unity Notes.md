@@ -2,7 +2,7 @@
 id: Unsorted-Unity-Notes
 title: Unsorted Unity Notes
 desc: ''
-updated: 1645589558557
+updated: 1646160680790
 created: 1644944601514
 ---
 
@@ -98,6 +98,9 @@ How to snap Game Object to he plane
 - hold down V
 
 
+If you duplicate a [[Unity.Game Object]], and you want to edit it, you first have to assign it a material. 
+Otherwise, if you edit it, it effects the original gameobject which was duplicated.
+
 
 
 ### Prefab Variants
@@ -105,4 +108,4 @@ A key concept
 https://docs.unity3d.com/Manual/PrefabVariants.html
 
 
-
+If you have too many start or awake functions, your app takes a long time to start.

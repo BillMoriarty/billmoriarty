@@ -2,10 +2,10 @@
 id: wn8PE1RhG0znK1alrGFYv
 title: Home
 desc: ''
-updated: 1644009671550
+updated: 1646322479971
 created: 1631901573363
 ---
-Hello. I work as software developer & research associate focusing on augmented reality and virtual reality. 
+Hello. I work as software developer & research associate focusing on augmented reality and virtual reality in the [FLARE team](https://www.jpmorgan.com/technology/flare).
 
 I studied computer science and software design at Temple University.
 

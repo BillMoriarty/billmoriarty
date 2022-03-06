@@ -2,16 +2,24 @@
 id: Python-References
 title: Python References
 desc: ''
-updated: 1645026515082
+updated: 1645824169235
 created: 1645026179150
 ---
 
 ---
 
-new dictionary
+Dictionary operations
+
+New empty dictionary
 ```
 new_dict = {}
 ```
+
+Remove key and key's values from a dictionary. Just delete the key 
+```
+del my_dictionary['bill']
+```
+
 ---
 
 floor division vs modulo operator
@@ -38,3 +46,17 @@ x.extend(y)
 ```
 
 ---
+
+## List operations
+
+Remove item from list
+```
+# create a list
+people = ['bill', 'john', 'sara']
+
+# remove from the list
+people.remove('sara)
+```
+
+---
+
