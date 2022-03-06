@@ -2,7 +2,7 @@
 id: orbit
 title: Orbits
 desc: ''
-updated: 1646074655661
+updated: 1646607212416
 created: 1646074655661
 ---
 
@@ -16,6 +16,6 @@ The RotateAround function takes
 - how far to move in angle degrees
 - - if we put in 360, we're going to completely circumnavigate the orbit. 
 
-
+![](/assets/images/orbit-work-in-progress.mov)
 
 
