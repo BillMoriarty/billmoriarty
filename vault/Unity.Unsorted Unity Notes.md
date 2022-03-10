@@ -2,7 +2,7 @@
 id: Unsorted-Unity-Notes
 title: Unsorted Unity Notes
 desc: ''
-updated: 1646160680790
+updated: 1646941227676
 created: 1644944601514
 ---
 
@@ -109,3 +109,27 @@ https://docs.unity3d.com/Manual/PrefabVariants.html
 
 
 If you have too many start or awake functions, your app takes a long time to start.
+
+---
+
+REcommendations for developing VR for Uculus
+https://developer.oculus.com/resources/publish-quest-req/
+
+
+
+--
+
+Procedural generation
+
+https://www.youtube.com/watch?v=64NblGkAabk&ab_channel=Brackeys
+
+https://www.youtube.com/watch?v=y6KwsRkQ86U&ab_channel=DevOrenge
+
+--
+
+collider
+rigidBody
+
+XR grab interactable
+
+onTriggerEnter
