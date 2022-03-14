@@ -2,7 +2,7 @@
 id: d5ih3t1042m0cvz9cu277no
 title: 1 on 1
 desc: ''
-updated: 1646850475799
+updated: 1647278103086
 created: 1645721666259
 ---
 
@@ -59,3 +59,48 @@ Separate Material for each video plane
 - 
 
 Each Material 
+
+
+---
+
+Intro to procedural generation particle systems
+
+
+family tree
+slightly animated
+can that be pre-built into a 3d model?
+
+
+is there hand tracking in AR with iOS?
+barracuda ML learning for hand tracking 
+with AR foundation 
+he'd still use AR foundation
+
+
+behind in the challenges
+can we work through one together that you think is most important to get up to speed?
+
+
+ar material 
+empty in front
+
+zach lieberman? 
+spanwing gameobjects based off user input
+as you're reading out what they are saying
+keep appending the UI element
+
+onTextAdded
+onSpeechAdded
+
+
+
+audio in 
+handheld library
+.microphone
+activate and provide permissions
+transform that 
+https://docs.unity3d.com/ScriptReference/Microphone.html
+
+how does vuforia calculate an image target 
+
+pos
