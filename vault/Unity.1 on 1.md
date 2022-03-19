@@ -2,7 +2,7 @@
 id: d5ih3t1042m0cvz9cu277no
 title: 1 on 1
 desc: ''
-updated: 1647278103086
+updated: 1647615530052
 created: 1645721666259
 ---
 
@@ -103,4 +103,10 @@ https://docs.unity3d.com/ScriptReference/Microphone.html
 
 how does vuforia calculate an image target 
 
-pos
+--
+
+Q's 
+
+does Unity, using rotate, recalculate the rotation after 1 rotation is completed
+
+

@@ -2,7 +2,7 @@
 id: Unsorted-Unity-Notes
 title: Unsorted Unity Notes
 desc: ''
-updated: 1646941227676
+updated: 1647614432157
 created: 1644944601514
 ---
 
@@ -133,3 +133,32 @@ rigidBody
 XR grab interactable
 
 onTriggerEnter
+
+---
+
+
+XR Interaction ToolKit Setup
+
+Package Manager Install XR Interaction ToolKit
+XR Interaction Tool Kit Package > Samples > Import Starter Assets (Optional Simulator for non VR Headset Users)
+Project Window> Samples>XR Interaction Toolkit > 2.0.0 > Starter Assets then select the asset “XRI Default Left Controller” (as well as right) and in the Inspector click “Add to ActionBasedController default” at the top of the inspector window
+Edit>Project Settings>Preset Manager then type in “Right” and “Left” to the left of the appropriate Preset input field
+Edit>Project Settings>XR Plug-in Management and enable desired platforms
+In the Hierarchy window add XR> XR Origin (Action Based)
+Add an “Input Action Manager” Component to the XR Rig
+Add to the action assets list the “XRI Default Input Actions” asset
+
+Add Grab Interactables and rigidbodies and colliders to objects you want to pick up
+Add Visuals for Hands by adding something into the model prefab property of each Controller component on the hands Or make them children of the controller and animate with events
+You can replace Line and Ray Interactors from Hands with Direct Interactors to reach out and grab objects instead of pointing and clicking
+
+---
+
+If you make a prefab
+- and make a child prefab
+that child will be loaded when the scene loads, and so it is ready to go instantly whenever you need it
+- so if this is a Sound, that sound will be ready to play
+- becuase Play On Awake is faster than calling Play Sound
+- s by instantiaing the Bell Sound prefab, and it has the sound which will "Play On Awake" then it'll play instantly 
+
+![](/assets/images/2022-03-17-14-01-05.png)
