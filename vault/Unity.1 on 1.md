@@ -2,7 +2,7 @@
 id: d5ih3t1042m0cvz9cu277no
 title: 1 on 1
 desc: ''
-updated: 1647615530052
+updated: 1648088059121
 created: 1645721666259
 ---
 
@@ -93,7 +93,7 @@ onTextAdded
 onSpeechAdded
 
 
-
+2
 audio in 
 handheld library
 .microphone
