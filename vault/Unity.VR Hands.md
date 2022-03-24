@@ -2,7 +2,7 @@
 id: VR-Hands
 title: VR Hands
 desc: ''
-updated: 1648150733327
+updated: 1648151035764
 created: 1648150466009
 ---
 
@@ -24,3 +24,12 @@ created: 1648150466009
 - Add Grab Interactables and rigidbodies and colliders to objects you want to pick up
 - You can replace Line and Ray Interactors from Hands with Direct Interactors to reach out and grab objects instead of pointing and clicking
 - Add Visuals for Hands by adding something into the model prefab property of each Controller component on the hands
+
+
+![](/assets/images/locomotion_1.jpg)
+
+![](/assets/images/locomotion_2.jpg)
+
+![](/assets/images/locomotion_3.jpg)
+
+![](/assets/images/locomotion_4.jpg)
