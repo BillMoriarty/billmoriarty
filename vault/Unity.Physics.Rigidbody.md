@@ -2,7 +2,7 @@
 id: Rigidbody
 title: Rigidbody
 desc: ''
-updated: 1650632491683
+updated: 1650980874776
 created: 1644346568897
 ---
 https://www.youtube.com/watch?v=WTGcs10Sj34
@@ -39,7 +39,7 @@ How fast it will slow its rotation.
 - you can move these objects with Transforms
 - constraints
 - - Freeze Position
-- - Freeeze Rotation
+- - Freeze Rotation
 
 
 At the start of a scene, the physics engine checks the state of all static objects.
