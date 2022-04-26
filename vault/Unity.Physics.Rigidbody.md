@@ -1,8 +1,8 @@
 ---
-id: unity-Rigidbodies
-title: Rigidbodies
+id: Rigidbody
+title: Rigidbody
 desc: ''
-updated: 1644346698004
+updated: 1650632491683
 created: 1644346568897
 ---
 https://www.youtube.com/watch?v=WTGcs10Sj34
