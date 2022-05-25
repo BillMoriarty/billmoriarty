@@ -2,7 +2,7 @@
 id: Microphone-Reviews
 title: Microphone Reviews
 desc: ''
-updated: 1653507405099
+updated: 1653507725412
 created: 1653493338687
 ---
 
@@ -24,11 +24,11 @@ The RODE Videomic NTG had 20db pad engaged, and 75hz low cut (which is how I wou
 I did no post processing except to match the levels.
 
 
-RODE Videomic NTG
+### RODE Videomic NTG </br>
 <audio src="/assets/recordings/voice_test_RODE_Videomic_NTG.m4a" controls ></audio>
 
 
-RODE Wireless Go II
+### RODE Wireless Go II </br>
 <audio src="/assets/recordings/voice_test_Rode_Wireless_Go_II.m4a" controls ></audio>
 
 ---
