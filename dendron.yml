@@ -61,11 +61,16 @@ workspace:
             L: low
         todoIntegration: false
         createTaskSelectionType: selection2link
+        taskCompleteStatus:
+            - done
+            - x
     enableUserTags: true
     enableHashTags: true
     dendronVersion: 0.85.0
     enableEditorDecorations: true
     enableFullHierarchyNoteTitle: false
+    enableHandlebarTemplates: false
+    templateHierarchy: template
 preview:
     enableFMTitle: true
     enableNoteTitleForLink: true
@@ -84,9 +89,9 @@ publishing:
     copyAssets: true
     siteHierarchies:
         - root
-    enableSiteLastModified: true
+    enableSiteLastModified: truegit
     siteRootDir: docs
-    siteUrl: https://billmoriarty.github.io
+    siteUrl: https://billmoriarty.com
     enableFrontmatterTags: true
     enableHashesForFMTags: false
     enableRandomlyColoredTags: true
@@ -104,3 +109,4 @@ publishing:
         editBranch: main
         editViewMode: tree
     enablePrettyLinks: true
+    enableTaskNotes: true
