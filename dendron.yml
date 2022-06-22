@@ -34,6 +34,7 @@ workspace:
         addBehavior: asOwnDomain
     graph:
         zoomSpeed: 1
+        createStub: false
     enableAutoCreateOnDefinition: false
     enableXVaultWikiLink: false
     enableRemoteVaultInit: true

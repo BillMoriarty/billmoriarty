@@ -62,7 +62,7 @@ Interaction Techniques for Composite and Application-Specific Tasks
 
 
 
-**3 Important Terms**
+**Three Important Terms**
 - presence
 > the feeling of "being there" tha you get when imersed in a virtual 3D world (Slater et al. 1994)
 - cybersickness 
@@ -81,3 +81,73 @@ todo: insert that clip here
 On HCI
 I'm going to quote this short paragraph in full:
 > The study of HCI has revealed many areas not addressed by traditional HCI. For example, what metrics should be used to study the user experience of a system? In typical UIs, metrics such as speed, accuracy, satisfaction, and perceived ease of use may be sufficient; in 3D UIs, we also need to asses things like physical comfort and presence. The development of heuristics or guidelines for good UI design is another area that has been studied thoroughly in traditional HCI but that requires further thought and expansion for 3D UIs. 
+
+Chapter 3
+> "human factors" refers to the capabilities, characteristics, and limitations the human user...
+
+>...we focus on three interconnected human factors categories perceptual, cognitive, and physical ergonomics issues 
+
+>While attention is still not fully understood, evidence indicates it has three components: orienting to sensory events, detecting signals doe focused processing, maintaining a vigilant or alert state.
+
+>For example, consider a busy train station - a friend may be waving and, once you focus you attention on her, you may notice she is also calling your name. 
+
+>...decision-making processes are in the center of information processing and depend on capturing, organizing, and combining information from various sources
+
+>Skills can be a major focus of a 3DUI...skill transfer is an important factor in many VR training applications, with the expectation that skills learned in a VE can also be applied in the real world
+
+*index of performance*
+- IP = (ID / MT)
+- - _index of difficulty_ / _movement time_
+
+> *index of performance*is expressed in bits per second and has been used to define the performance of many input devices. 
+- - the hand itself = 10.6 bits/s
+- - a mouse = 10.4 bits/s
+- - a joystick = 5.0 bits/s
+- - a touchpad = 1.6  bits/s
+- - - well...I am much faster with this mac's trackpad than any mouse 
+
+
+_steering law_
+...predictive model that describes the time to steer through a tunnel
+
+[ ]install latex and put in the formula
+
+
+**occlusion**
+> also called contour interruption or interposition
+the phenomenon in which an object closer to the user partially obstructs the view of an object farther away
+
+**linear perspective**
+> the phenomenon what makes parallel lines appear to converge as they move away from the viewer
+
+...incidentally, this kind of phenomenon is what flat earthers use to 'prove' that the earth is flat. They say this is why you can't see objects which are actually beyond the horizon. They say no, they are just too far away to see, but that if you had a powerful enough telescope and nothing was in the way, you could Africa from NYC. See Eddie Bravo ranting on Rogan's show. Sigh. 🙄
+
+
+**aerial perspective**
+> also called atmospheric attenuation
+is a cue that gauges relative distance by measuring the scattering and absorption of light through the atmosphere. For example, a nearer object will have more color saturation and brightness, while a more distant object will be duller and dimmer. 
+
+
+**motion parallax**
+>depth information is conveyed when objects are _moving_ relative to the viewer
+
+
+audio - binaural cues
+>The fundamental problem with binaural cues id that there are locations relative to the listener's head where ambiguous situations occur...one of the ways...can deal with ambiguous binaural cues is with dynamic movement of the...head or the sound source itself.
+
+Reverberation, of course, is a useful way to locate a sound source.
+
+**vestibular**
+>The vestibular system is closely tied to the ear and auditory nerves...the vestibular sense can be best understood as the human balance system. 
+
+>...the vestibular system affects the control of the eyes, neck, and trunk/limbs
+
+>It is believed _cybersickness_ is caused by a mismatch between visual and vestibular cues.
+
+## somatosensory
+3.3.3
+
+This is also called the haptic system.
+>The somatosensory, or haptic, system is an important perceptual system dealing with what we feel when touching or grasping objects and how we perceive the location and movement of the parts of our bodies. 
+
+[ ]pickup here
