@@ -19,6 +19,7 @@ commands:
         enableMarker: false
     randomNote: {}
     copyNoteLink: {}
+    templateHierarchy: template
 workspace:
     vaults:
         -
@@ -70,8 +71,8 @@ workspace:
     dendronVersion: 0.85.0
     enableEditorDecorations: true
     enableFullHierarchyNoteTitle: false
-    enableHandlebarTemplates: false
     templateHierarchy: template
+    enableSmartRefs: false
 preview:
     enableFMTitle: true
     enableNoteTitleForLink: true

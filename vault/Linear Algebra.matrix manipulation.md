@@ -2,7 +2,7 @@
 id: matrix-manipulation
 title: Matrix Manipulation
 desc: ''
-updated: 1644434322186
+updated: 1657571798596
 created: 1643988598713
 ---
 
@@ -59,3 +59,49 @@ The absolute value of that determinant still tells you how the area of space has
 In 3D, the determinant changes the volume, instead of just the area.
 
 If you have a negative determinant in 3D, some orientation has flipped.
+
+
+Applying a transformation, A, then A inverse, gets you back to where you started. 
+A inverse, * A = the matrix that corresponds to the transformation that does…nothing. This is also called the “identity transformation.”
+[1,0
+0,1]
+If there is an inverse, you can use that to solve the system.
+
+But, there will be no inverse if a transformation effectively removes a dimension. If a 2D becomes a line (“rank 1”), or 3D becomes a plane(“rank 2”).
+The ‘rank’ means the number of dimensions in the output transformation.
+Or, the numbers of dimensions in the column space.
+Column space helps us understand if a solution even exists.
+
+
+All the vectors that land on the origin (become null) are called “null space” or “kernel.”
+This helps know what the set of all possible solutions could look like.
+
+Below, a 3 x 2 matrix (3 rows and 2 columns), is an example of a transformation from a 2D space to a 3D space.
+This says: 
+- take i hat, and move it to 4,2,5.
+- take j hat, and move it to 1,3,6
+| 4   | 1   |
+|-----|-----|
+| 2   | 3   |
+| 5   | 6   |
+
+Alternately if we are transforming from 3D to 2D, the matrix would look like:
+| 2   | 7   | 8   |
+|-----|-----|-----|
+| 4   | -3  | 9   |
+- take i hat, and move it to 2,4.
+- take j hat, and move it to 7,-3
+- take k hat, and move it to 8,9
+
+
+### The Importance Of Dot Products
+
+[4] * [2]</br>
+[1]	[-1]</br>
+=(4 * 2) + (1 * -1)
+
+“This computation has a really nice geometric interpretation.”
+Summary: Dot product is a useful geometric tool for understanding projections, and for testing if vectors tend to point in the same direction.
+
+
+
