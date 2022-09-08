@@ -11,18 +11,18 @@ We'll be trying to stabilize these as soon as possible to minimize breakages!
 
 section.side-layout-main {
   /* Background color of the main section, with the page contents and table of contents. */
-  background: #f8f8f8;
+  background: #E7E9E5;
   }
   
   footer.ant-layout-footer {
   /* Background color of the footer */
-  background: #f8f8f8;
+  background: #E7E9E5;
   }
   
 
   header.ant-layout-header {
   /* Background color of the header, with logo and search bar. */
-  background: #94c5cc;
+  background: #F2F6F4;
   }
   
     /* TODO fix */
@@ -30,7 +30,7 @@ section.side-layout-main {
   .ant-menu-submenu.dendron-ant-menu-submenu-selected
   > .ant-menu-submenu-title {
   /* Background color for the currently selected item on the sidebar. */
-  background: #c5dcff;
+  background: #DCDED7;
   }
   
     /* TODO fix */
@@ -43,10 +43,10 @@ section.side-layout-main {
   .ant-menu-vertical-right .ant-menu-submenu,
   .ant-menu-inline .ant-menu-submenu {
   /* Background color for the sidebar. */
-  background: #e0e0e0;
+  background: #D9D2C2;
   }
   
-    /* TODO fix */
+
   /* ============> Text and link colors <============ */
   body,
   h1,
@@ -54,7 +54,7 @@ section.side-layout-main {
   h3,
   h4 {
   /* Text color for the text, not including links. */
-  color: #0c0c0c;
+  color: #a1a6b4;
   }
   
     /* TODO fix */
