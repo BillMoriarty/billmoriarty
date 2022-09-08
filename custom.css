@@ -8,21 +8,24 @@ We'll be trying to stabilize these as soon as possible to minimize breakages!
 */
 
 /* ============> background colors <============ */
+
 section.side-layout-main {
   /* Background color of the main section, with the page contents and table of contents. */
-  background: #ffffff;
+  background: #f8f8f8;
   }
   
   footer.ant-layout-footer {
   /* Background color of the footer */
-  background: #fafafa;
+  background: #f8f8f8;
   }
   
+
   header.ant-layout-header {
   /* Background color of the header, with logo and search bar. */
-  background: #e0e0e0;
+  background: #94c5cc;
   }
   
+    /* TODO fix */
   .dendron-tree-menu.ant-menu
   .ant-menu-submenu.dendron-ant-menu-submenu-selected
   > .ant-menu-submenu-title {
@@ -30,6 +33,7 @@ section.side-layout-main {
   background: #c5dcff;
   }
   
+    /* TODO fix */
   .site-layout-sidebar.ant-layout,
   .ant-layout-sider,
   .ant-menu-submenu,
@@ -42,6 +46,7 @@ section.side-layout-main {
   background: #e0e0e0;
   }
   
+    /* TODO fix */
   /* ============> Text and link colors <============ */
   body,
   h1,
@@ -52,6 +57,7 @@ section.side-layout-main {
   color: #0c0c0c;
   }
   
+    /* TODO fix */
   a,
   a:hover,
   a:active {
@@ -59,36 +65,43 @@ section.side-layout-main {
   color: #00629b;
   }
   
+    /* TODO fix */
   a:visited {
   /* Color for links that have been already visited. */
   color: #002b5c;
   }
   
+    /* TODO fix */
   a.private {
   /* Color for links to private (not published) or missing notes. */
   color: #cc5d1a;
   }
   
+    /* TODO fix */
   .dendron-toc .ant-anchor-link-title {
   /* Color for items in the table of contents. */
   color: #0c0c0c;
   }
   
+    /* TODO fix */
   .dendron-tree-menu.ant-menu .ant-menu-title-content a {
   /* Color for links in the sidebar. */
   color: #00629b;
   }
   
+    /* TODO fix */
   footer .ant-typography {
   /* Color for text in the footer, except the "Page last modified" text. */
   color: #1b1b1b;
   }
   
+    /* TODO fix */
   footer .ant-typography.ant-typography-secondary {
   /* Color for the "Page last modified" text in the footer. */
   color: #4e4e4e;
   }
   
+    /* TODO fix */
   .ant-menu-item a:hover,
   .ant-menu-item > .ant-badge a:hover,
   .ant-menu-submenu-selected {
@@ -96,11 +109,13 @@ section.side-layout-main {
   color: #002b5c;
   }
   
+    /* TODO fix */
   .ant-menu-submenu .ant-menu-submenu-title:hover {
   /* The color for the currently highlighted sidebar item. */
   color: #002b5c;
   }
   
+    /* TODO fix */
   .dendron-tree-menu.ant-menu .ant-menu-inline .ant-menu-item-selected::after {
   /* The color for the bar on the right side of the currently selected sidebar item. */
   border-color: #002b5c;
@@ -108,9 +123,10 @@ section.side-layout-main {
   
   .ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
   /* The color for the background of the currently selected sidebar item. */
-  background-color: #c3cbdb;
+  background-color: #f8f8f8;
   }
   
+  /* TODO fix */
   .dendron-toc .ant-anchor-ink-ball {
   /* The color for the dot in the table of contents showing the current position. */
   border-color: #002b5c;
