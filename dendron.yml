@@ -85,7 +85,7 @@ preview:
     enableHashesForFMTags: false
 publishing:
     ga:
-        tracking: 331081056
+        tracking: G-QF7TXKLET1
     theme: custom
     enableFMTitle: true
     enableNoteTitleForLink: true
