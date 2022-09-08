@@ -86,7 +86,7 @@ preview:
 publishing:
     ga:
         tracking: G-QF7TXKLET1
-    theme: custom
+    # theme: custom
     enableFMTitle: true
     enableNoteTitleForLink: true
     enableMermaid: true
