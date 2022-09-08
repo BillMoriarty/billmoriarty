@@ -74,7 +74,7 @@ workspace:
     templateHierarchy: template
     enableSmartRefs: false
 preview:
-    theme: custom # this is new
+    # theme: custom # this is new
     enableFMTitle: true
     enableNoteTitleForLink: true
     enableMermaid: true

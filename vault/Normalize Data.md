@@ -1,8 +1,8 @@
 ---
-id: Normalize Data
+id: Normalize-Data
 title: Normalize Data
 desc: ''
-updated: 1646074338381
+updated: 1662644481070
 created: 1646074111202
 ---
 
