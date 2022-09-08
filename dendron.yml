@@ -84,6 +84,8 @@ preview:
     enableFrontmatterTags: true
     enableHashesForFMTags: false
 publishing:
+    ga:
+        tracking: 331081056
     theme: custom
     enableFMTitle: true
     enableNoteTitleForLink: true
