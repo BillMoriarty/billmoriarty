@@ -2,7 +2,7 @@
 id: TypeScript
 title: TypeScript
 desc: ''
-updated: 1662733275665
+updated: 1662739122316
 created: 1662643727632
 ---
 
@@ -278,3 +278,29 @@ interface Point {
 }
 ```
 
+---
+
+### Aspects Related to Building Projects with TypeScript
+
+#### as always, a TODO List
+
+`mkdir project_name
+
+cd project_name
+
+tsc --init
+
+tsc -w `
+
+Now we want to be able to view this in the browser.
+
+To make a live server:
+- keep in mind - below is not a function of TypeScript - this is just a normal npm server...
+- cd to the base directory of the project
+- create an npm package file: `npm init -y`
+- install lite server `npm install lite-server`
+- setup a script in the newly created npm 'package.json' so that npm start runs lite server, like this:
+- ![](/assets/images/2022-09-09-11-55-40.png)
+- run `npm start`
+- that should launch a browser
+- when you make a change in your .ts files of the project, they will compile to .js files, and the server is notified, and the changes appear live
