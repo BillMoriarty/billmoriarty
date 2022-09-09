@@ -2,7 +2,7 @@
 id: TypeScript
 title: TypeScript
 desc: ''
-updated: 1662663453450
+updated: 1662733275665
 created: 1662643727632
 ---
 
@@ -162,4 +162,119 @@ or
 `let list: Array<number> = [1, 2, 3];`
 
 
+### Union Types
+> TypeScript’s type system allows you to build new types out of existing ones using a large variety of operators. Now that we know how to write a few types, it’s time to start combining them in interesting ways.
+
+> The first way to combine types you might see is a union type. A union type is a type formed from two or more other types, representing values that may be any one of those types. We refer to each of these types as the union’s members.
+
+At first glance...I am not sure in what context this feature would be useful. Maybe I'll come across it somewhere.
+
+```
+function printId(id: number | string) {
+  if (typeof id === "string") {
+    // In this branch, id is of type 'string'
+    console.log(id.toUpperCase());
+  } else {
+    // Here, id is of type 'number'
+    console.log(id);
+  }
+}
+```
+
+
+### Literal Type
+const zero: number = 0;
+
+
+### Some Examples
+variable that can be a number or boolean
+`let highScore: number | boolean;`
+
+
+array that can hold numbers or strings, but not a mixture <br>
+`let stuff: number[] | string[] = [];`
+
+
+type that holds 4 possible values
+```type SkillLevel = 
+    "Beginner" |
+    "Intermediate" |
+    "Advanced" |
+    "Expert";
+```
+
+```
+type RGB = {
+    r: number;
+    g: number;
+    b: number;
+}
+
+type HSL = {
+    h: number;
+    s: number;
+    l: number;
+}
+
+// array called colors that can hold a mixture of RGB and HSL
+const colors: (RGB | HSL)[] = [];
+```
+
+
+### Tuples
+This is a TypeScript implementation. In JavaScript it transpiles to an array.
+s
+> Tuple can contain two values of different data types.
+
+```
+var empId: number = 1;
+var empName: string = "Steve";        
+
+// Tuple type variable 
+var employee: [number, string] = [1, "Steve"];
+
+```
+
+> A tuple type variable can include multiple data types as shown below.
+
+```
+var user: [number, string, boolean, number, string];// declare tuple variable
+```
+
+
+> You can declare an array of tuple also.
+```
+var employee: [number, string][];
+employee = [[1, "Steve"], [2, "Bill"], [3, "Jeff"]];
+```
+
+### Enums
+
+```
+enum Direction {
+  Up = 1,
+  Down,
+  Left,
+  Right,
+}
+```
+
+
+### Interfaces
+They allow us to define the structure of objects. 
+
+```
+interface Point {
+  readonly id: number; // readonly makes it so it cannot be changed
+  x: number;
+  y: number;
+  z?: number; // ? makes this optional
+  sayHello: () => string // this indicates the implementation of this interface must include the 'sayHello' method that returns a string and takes no parameters
+
+  sayBye(): string; // another way to write - this indicates the implementation of this interface must include the 'sayBye' method that returns a string and takes no parameters
+
+  changeNums(change: number): number; // this indicates the implementation of this interface must include the 'changeNums' method that returns a string and takes a parameter which is a number. The passed in param name does not need to be called 'change.'
+
+}
+```
 
