@@ -2,7 +2,7 @@
 id: TypeScript
 title: TypeScript
 desc: ''
-updated: 1662739122316
+updated: 1662745278212
 created: 1662643727632
 ---
 
@@ -304,3 +304,17 @@ To make a live server:
 - run `npm start`
 - that should launch a browser
 - when you make a change in your .ts files of the project, they will compile to .js files, and the server is notified, and the changes appear live
+
+
+This returns a generic HTML element. TS doesn't know this a Button
+
+As often when working with the DOM, it's difficult to know if "btn1" will actually exist
+`const btn = document.getElementById("btn1")`
+
+One approach is to make them optional:
+```
+btn?.addEventListener("click", function ()) {
+    console.log("clicked");
+}
+```
+
