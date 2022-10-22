@@ -2,9 +2,12 @@
 id: TypeScript
 title: TypeScript
 desc: ''
-updated: 1662739122316
+updated: 1665427059263
 created: 1662643727632
 ---
+
+### *These are my notes as I learn TypeScript, and thus brush up on modern JavaScript.* 
+<br>
 
 TypeScript compiles down to JavaScript.
 
@@ -304,3 +307,71 @@ To make a live server:
 - run `npm start`
 - that should launch a browser
 - when you make a change in your .ts files of the project, they will compile to .js files, and the server is notified, and the changes appear live
+
+
+This returns a generic HTML element. TS doesn't know this a Button
+
+As often when working with the DOM, it's difficult to know if "btn1" will actually exist
+`const btn = document.getElementById("btn1")`
+
+One approach is to make them optional:
+```
+btn?.addEventListener("click", function ()) {
+    console.log("clicked");
+}
+```
+
+---
+
+Calling tsc 'watch' in the terminal will cause node to automatically transpile the .ts into .js on save. <br>
+
+``` tsc -w ```
+> tsc-watch starts a TypeScript compiler with --watch parameter, with the ability to react to compilation status. tsc-watch was created to allow an easy dev process with TypeScript. Commonly used to restart a node server, similar to nodemon but for TypeScript.
+
+---
+
+Putting a hash symbol # in front of a property, or method, makes it private to a class. 
+****
+There is some debate here, because the 'private' typescript removes 'private' when it is converted to javascript.
+
+Javascript's way to do this is to use the hashtag in front of a parameter to make it private.
+
+`#price: number = 0`
+
+`private price: number = 0;`
+
+
+---
+
+## Loops
+
+This looks the same as JavaScript to me
+```
+nums.forEach((element, index) => {
+        let tmpSum = 0;
+    })
+```
+
+However, since forEach is a function and not a loop, you can't use 'continue' or 'break' to break out of the loop.
+
+If you may need to break the iteration, it's recommended you use something instead of forEach.
+
+Unfortunately, it's also show that hand-rolling for loops often runs quicker than built-in array functions such as map, forEach, etc.
+
+
+---
+
+## Array Operations
+
+### Slicing
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice
+
+Slice creates a shallow copy of the array.
+
+**start** <br>
+Zero-based index at which to start extraction.
+
+
+**end** <br>
+The index of the first element to **exclude** from the returned array. Slice extracts up to but not including end. For example, slice(1,4) extracts the second element through the fourth element (elements indexed 1, 2, and 3). Thanks, Mozilla.
+
