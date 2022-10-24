@@ -24,7 +24,7 @@ The Wisdom Seat
 https://thewisdomseat.org
 
 Podcast for The Wisdom Seat
-https://anchor.fm/the-wisdom-seaty
+https://anchor.fm/the-wisdom-seat
 
 Recording was my first love. At age 13 I got a guitar and a 4 track recorder. I have been making recordings as long as I’ve been around music.
 
