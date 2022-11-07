@@ -62,3 +62,24 @@ What about just getting whatever Nokia is available,[ like Aziz did](https://www
 
 Well - those Nokia phones still have web browsers and youtube. 
 
+---
+Update on Nov 6, 2022
+
+Sort of unsurprising for me, I have been experimenting with having multiple iPhones instead of 0 iPhones.
+I am trying an iPhone 12 Mini, without a SIM card, as my Camera + Spotify + Overcast machine.
+- It has the Freedom App installed which blocks all websites 24 hours/day
+- It has messages disabled, no email connection, no calendar connection.
+- it *does* have Apple Notes, Voice Memos, and my favorite note taking app: Bear
+
+All notifications are disabled. All automatic updates are disabled.
+
+Surprising side effect - it is much snappier and seems to run more quickly than my "phone" which is also an iPhone 12.
+
+Will it work? We will see. 
+So far, using this has removed any feeling of foreboding that I usually get which is:
+'man...if I pick up that phone it's going to demand something of me: there's gonna be some message or worse some unknown message text for some list I'm on, or some app update, or whatever. 
+
+Something I am learning from this: I am much happier with completely zero notifications. I thought I was had tamed them on my iPhone, but this iPhone 12 mini approach of just turning all of it off is much more relaxing. 
+I suppose if it also had a sim card, and I turned on messages, I would need to allow phone calls to prompt a notification, but I could live with messages not having notifications.
+
+

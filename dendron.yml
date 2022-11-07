@@ -22,8 +22,7 @@ commands:
     templateHierarchy: template
 workspace:
     vaults:
-        -
-            fsPath: vault
+        - fsPath: vault
     journal:
         dailyDomain: daily
         name: journal
@@ -44,11 +43,11 @@ workspace:
     maxPreviewsCached: 10
     maxNoteLength: 204800
     task:
-        name: ''
-        dateFormat: ''
+        name: ""
+        dateFormat: ""
         addBehavior: childOfCurrent
         statusSymbols:
-            '': ' '
+            "": " "
             wip: w
             done: x
             assigned: a
@@ -56,7 +55,7 @@ workspace:
             blocked: b
             delegated: l
             dropped: d
-            pending: 'y'
+            pending: "y"
         prioritySymbols:
             H: high
             M: medium
@@ -95,7 +94,7 @@ publishing:
     copyAssets: true
     siteHierarchies:
         - root
-    enableSiteLastModified: truegit
+    enableSiteLastModified: true
     siteRootDir: docs
     siteUrl: https://billmoriarty.com
     enableFrontmatterTags: true
