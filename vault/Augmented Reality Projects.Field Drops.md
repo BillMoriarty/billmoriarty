@@ -6,8 +6,6 @@ updated: 1656980963918
 created: 1656980900444
 ---
 
-# field-drops
-
 [Code on GitHub](https://github.com/BillMoriarty/field-drops/edit/main/README.md)
 
 ### iOS Augmented Reality app experimenting with RealityKit for sound player interaction
