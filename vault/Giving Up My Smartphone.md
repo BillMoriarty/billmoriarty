@@ -2,7 +2,7 @@
 id: Giving-Up-A-Smartphone
 title: Giving Up A Smartphone
 desc: ''
-updated: 1666384663074
+updated: 1669599221137
 created: 1666384128163
 ---
 
@@ -63,7 +63,7 @@ What about just getting whatever Nokia is available,[ like Aziz did](https://www
 Well - those Nokia phones still have web browsers and youtube. 
 
 ---
-Update on Nov 6, 2022
+### Update on Nov 6, 2022
 
 Sort of unsurprising for me, I have been experimenting with having multiple iPhones instead of 0 iPhones.
 I am trying an iPhone 12 Mini, without a SIM card, as my Camera + Spotify + Overcast machine.
@@ -82,4 +82,18 @@ So far, using this has removed any feeling of foreboding that I usually get whic
 Something I am learning from this: I am much happier with completely zero notifications. I thought I was had tamed them on my iPhone, but this iPhone 12 mini approach of just turning all of it off is much more relaxing. 
 I suppose if it also had a sim card, and I turned on messages, I would need to allow phone calls to prompt a notification, but I could live with messages not having notifications.
 
+
+### Update on Nov 27, 2022
+Just got back from a week vacation wih my family to Florida, including Universal Studios. 
+What I tried was: I left my iPhone that has a SIM card at the hotel.
+I brought with me the iPhone 12 Mini which was my Camera and Audio player.
+- has no sim card
+- has no email
+- has Freedom app on a 24 hour session to block websites
+- does not receive SMS nor iMessage
+- does not receive Facetime
+- has all notifications off. 
+
+This was really close to being great. It runs very quickly, and I have zero sense of foreboding when I take this out of my pocket to use it. There is nothing to get distracted by. It is just acting as a camera and music/podcast player. The only time I found myself distracted by it was playing with customizing the wallpaper, etc.
+The main con: my wife & I could not call or text each other. 
 
