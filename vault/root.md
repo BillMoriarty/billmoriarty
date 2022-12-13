@@ -2,12 +2,12 @@
 id: wn8PE1RhG0znK1alrGFYv
 title: Home
 desc: ''
-updated: 1670011169843
+updated: 1670896753599
 created: 1631901573363
 ---
 * Hello. I work as software developer & research associate focusing on augmented reality and virtual reality in the [GT Applied Research team](https://www.jpmorgan.com/technology/applied-research).
 
-Trying out <a rel="me" href="https://techhub.social/@billmoriarty">Mastodon</a>
+Trying out  <a rel="me" href="https://mastodon.social/@billmoriarty">Mastodon</a>
 
 I studied computer science and software design at Temple University.
 
