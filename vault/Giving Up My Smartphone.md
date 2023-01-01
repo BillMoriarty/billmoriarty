@@ -2,7 +2,7 @@
 id: Giving-Up-A-Smartphone
 title: Giving Up A Smartphone
 desc: ''
-updated: 1669599221137
+updated: 1672599194664
 created: 1666384128163
 ---
 
@@ -95,5 +95,31 @@ I brought with me the iPhone 12 Mini which was my Camera and Audio player.
 - has all notifications off. 
 
 This was really close to being great. It runs very quickly, and I have zero sense of foreboding when I take this out of my pocket to use it. There is nothing to get distracted by. It is just acting as a camera and music/podcast player. The only time I found myself distracted by it was playing with customizing the wallpaper, etc.
-The main con: my wife & I could not call or text each other. 
+The main con: my wife & I could not call or text each other. <- She did not like that.
 
+## Update on Jan 1, 2023
+The amount of apps on this iPhone 12 mini is increasing...hmm.
+I tried, during Christmas break, to swap my sim card into this 12 mini, turn off my regular 12, and make this my regular phone. 
+It's better with all notifications, auto-updates, lock screen info turned off. It's definitely more pleasant, but I find myself using Safari to browse cnn for no reason. 
+
+The next hurdle when switching to a dumb phone will be spam calls. 
+I mostly get spam calls. I've signed up for anything related to a do not call list that I can find, but I still get about 5 spam calls per day.
+
+I reached out to Light Phone folks to ask if their phone can silence unknown callers.
+
+> Me: <br>
+"Does the light phone have this? Maybe it would be called:
+- "Allow incoming calls from contacts only” <br>
+Or 
+- "silence unknown callers”
+
+>Light Phone support: <br>
+"Thank you for your interest in the Light Phone. Other than being able to block individual numbers, we don't have any unique spam call filters at this time. We do hope to have a 'contacts only' call filter by the end of next year."
+
+
+I just ordered a Sunbeam F1 Orchid to try. <br>
+Ugly looks, but:
+- can silence unknown callers
+- has maps
+- has no browser
+- voice to text
