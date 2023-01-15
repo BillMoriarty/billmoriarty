@@ -1,11 +1,11 @@
 ---
 id: wn8PE1RhG0znK1alrGFYv
 title: Home
-desc: ''
-updated: 1670896753599
+desc: 'Personal Website of Bill Moriarty'
+updated: 1673749560079
 created: 1631901573363
 ---
-* Hello. I work as software developer & research associate focusing on augmented reality and virtual reality in the [GT Applied Research team](https://www.jpmorgan.com/technology/applied-research).
+Hello. I work as software developer & research associate focusing on augmented reality and virtual reality in the [GT Applied Research team](https://www.jpmorgan.com/technology/applied-research).
 
 Trying out  <a rel="me" href="https://mastodon.social/@billmoriarty">Mastodon</a>
 

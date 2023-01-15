@@ -2,7 +2,7 @@
 id: Giving-Up-A-Smartphone
 title: Giving Up A Smartphone
 desc: ''
-updated: 1672599194664
+updated: 1673749542290
 created: 1666384128163
 ---
 
@@ -123,3 +123,49 @@ Ugly looks, but:
 - has maps
 - has no browser
 - voice to text
+
+
+## Update on Jan 14, 2023
+Switching to the Sunbeam F1 Orchid as my cell phone has been better than I imagined. 
+
+I had an important work project to complete and demonstrate on 1/13/2023, and I was done well ahead of time. I was done early enough that I went over what I created several times to improve it before the demo.
+
+In the recent past, completing this kind of project always took working late, and sometimes on weekends to get the coding done on time. 
+
+What does this have to do with talking about the Sunbeam F1?
+
+Well, I am attributing my diligence and ability to complete all this work *only during working hours* to the mental freedom, and the lack of easy distraction, that I was afforded by not having an internet search enabled connected device in my pocket all the time. 
+
+#### First Impressions after week 1
+I turned off my iPhone, switched the SIM card to the Sunbeam, and that started the experiment!
+
+This past week at work I had just the Sunbeam with me for texting and phone calls:
+1. The voice to text functionality is the best I've used. They say they use Microsoft's service for this. The automatic punctuation is even good.
+2. The touchscreen. I honestly forgot it would have a touchscreen, so this was a nice surprise. 
+
+But to the point - when work was difficult, and I'd usually take a break watching youtube, or checking cnn for no reason, the only thing I could do on the Orchid for entertainment was...change the wallpaper...from among the 5 or 6 low res images that come with it. (I went with the waves)
+
+More benefits!
+- There are no apps on this thing to update. 
+- There are no apps bugging me with notifications. 
+
+Now the maps - I have not given these a solid trial. I used it once or twice while driving to navigate, and it works, but I need to check this out more thoroughly before recommending it or not.
+
+Now for the texting. Type with T9 is pretty awful. That's not for me. I'm easily able to type on the tiny qwerty touchscreen and there is automatic word suggestions I can select from while typing. But again, the voice to text is excellent, so I have been using that most of the time. 
+
+But what about iMessage???
+Well, I still a have an M1 MacBook air, and I still own my iPhone. 
+I removed my cell phone number from iMessage, so it is only associated with an email address. People can iMessage me, and it'll show up on my MacBook. 
+
+Also, I am an iOS augmented reality developer. I am not selling my iPhone. I removed the SIM as mentioned, turned off iMessage, and tuned off all notifications.
+
+Another part of this experiment, which has not been easy to solve, relates to music & podcasts. I have been using a Garmin vivoactive 4 as my watch for a couple years, partially because it has Spotify offline. This works...poorly. It technically works, but the limitations are severe. 
+For example: there is no fast forward or rewind. 
+If you use it to play a podcast, it does not remember your position. So if you start a long podcast, leave the garmin spotify 'app' to do something else, thn try to play that again it has no idea where you were and starts again at the beginning...and you cannot fast forward.
+So, it is pretty awful for podcasts. 
+
+
+And for me, in 2023, I'm treating things like this as experiments. If it doesn't end up working for me, or improving my day to day, then I will try something else.
+So far, this week, switching to this is a definite improvement. 
+
+
