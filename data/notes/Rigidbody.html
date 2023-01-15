@@ -1,0 +1,69 @@
+<h1 id="rigidbody">Rigidbody<a aria-hidden="true" class="anchor-heading icon-link" href="#rigidbody"></a></h1>
+<p><a href="https://www.youtube.com/watch?v=WTGcs10Sj34">https://www.youtube.com/watch?v=WTGcs10Sj34</a></p>
+<p>This allows a <a href="/notes/unity-Game-Object">Game Object</a> to</p>
+<ul>
+<li>fall with gravity </li>
+<li>have mass</li>
+<li>have drag</li>
+<li>have velocity</li>
+</ul>
+<p>The <a href="/notes/unity-Game-Object">Game Object</a> must also have a <a href="/notes/Unity-Collider">Collider</a> attached.</p>
+<h3 id="mass">Mass<a aria-hidden="true" class="anchor-heading icon-link" href="#mass"></a></h3>
+<p>Affects how collisions are treated. They react less with a higher mass.</p>
+<h3 id="drag">Drag<a aria-hidden="true" class="anchor-heading icon-link" href="#drag"></a></h3>
+<p>Affects how quickly the object will slow down without other interactions. </p>
+<blockquote>
+<p>think of it like air resistance.
+The rate of loss of linear velocity.</p>
+</blockquote>
+<h3 id="angular-drag">Angular Drag<a aria-hidden="true" class="anchor-heading icon-link" href="#angular-drag"></a></h3>
+<p>How fast it will slow its rotation.</p>
+<h3 id="use-gravity">Use Gravity<a aria-hidden="true" class="anchor-heading icon-link" href="#use-gravity"></a></h3>
+<ul>
+<li>click this to enable gravity</li>
+<li>this is a 3D vector</li>
+<li>Edit -> Projects Settings -> Gravity</li>
+</ul>
+<h3 id="is-kinematic">Is Kinematic<a aria-hidden="true" class="anchor-heading icon-link" href="#is-kinematic"></a></h3>
+<ul>
+<li>whether or not a rigid body will react to physics</li>
+<li>if it Is Kinematic</li>
+<li>
+<ul>
+<li>this uses less compute</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>does not require the Physics Engine to reevaluate the entire scene</li>
+</ul>
+</li>
+<li>you can move these objects with Transforms</li>
+<li>constraints</li>
+<li>
+<ul>
+<li>Freeze Position</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>Freeze Rotation</li>
+</ul>
+</li>
+</ul>
+<p>At the start of a scene, the physics engine checks the state of all static objects.</p>
+<p>If an object Is Kinematic</p>
+<ul>
+<li>it informs the game engine of its location
+If na object is not Kinematic</li>
+<li>the game engine evaluates and dictates where the object should be </li>
+</ul>
+<p>Use the Interpolate setting to smooth jitter based on the prior frame
+Use the Extrapolate setting to smooth jitter based on the predicted frame</p>
+<hr>
+<strong>Backlinks</strong>
+<ul>
+<li><a href="/notes/sz2un22hz9thizmzyhdx1fh">Collision</a></li>
+<li><a href="/notes/OnCollisionEnter">OnCollisionEnter</a></li>
+<li><a href="/notes/XR-Grab-Interactable">XR Grab Interactable</a></li>
+</ul>

@@ -1,0 +1,13 @@
+<h1 id="ar-anchor">AR Anchor<a aria-hidden="true" class="anchor-heading icon-link" href="#ar-anchor"></a></h1>
+<p>An <a href="https://developer.apple.com/documentation/arkit/aranchor">ARAnchor</a> is continually updated by the iOS device as you move around to correct for any drift or miscalculation</p>
+<p>So if you use ar anchors, your virtual content will stay much better in sync with the real world</p>
+<p>It's a reference to the virtual world map.</p>
+<p>It's important to notice that ARKit ARAnchors are different then RealityKit's <a href="/notes/Anchor-Entity">Anchor Entity</a></p>
+<p>A good explanation from <a href="https://stackoverflow.com/questions/57593960/whats-the-difference-between-aranchor-and-anchorentity">stack overflow</a>:</p>
+<blockquote>
+<p>The anchor in each of those examples are two different object types, the first is an ARAnchor, the second is an AnchorEntity.
+<br><br>
+If you create an AnchorEntity like this: AnchorEntity(plane: .horizontal), then it will attach to the first horizontal ARAnchor which is automatically created with ARKit's plane detection. However if you instead create an AnchorEntity in this way: AnchorEntity(world: [0, 0, -1]), then it will position it at that [0, 0, -1] in world space, not using any ARAnchors.
+<br><br>
+You might want to manually add an ARAnchor to the session if you want something to be positioned at the same place across two devices using collaborative sessions, but at an arbitrary location, such as [0, 0, -1] on one of the device's world space.</p>
+</blockquote>

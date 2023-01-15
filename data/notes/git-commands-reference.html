@@ -1,0 +1,56 @@
+<h1 id="git-commands-reference">Git Commands Reference<a aria-hidden="true" class="anchor-heading icon-link" href="#git-commands-reference"></a></h1>
+<p>So there's some code out there you want to have on your computer.
+You need to make a copy of it.
+That's called 'clone'
+<code>git clone url_to_the_code_you_want</code></p>
+<p>After cloning, you can see what is in your current folder with
+<code>ls -ltr</code></p>
+<p>Then you need to change into that folder you cloned in order to work with it</p>
+<p><code>cd folder_on_your_computer_where_the_code_was_cloned</code></p>
+<p>The place online where the code was stored is called the <em>origin</em></p>
+<hr>
+<p>If you are working on a project on your computer, and want to use git for version control, you need to initialize git in the folder you are working on.</p>
+<p>First, open the terminal in the folder you want to use git in. Then run git init.</p>
+<p><code>cd INTO_THE_FOLDER_YOU'RE_WORKING_IN git init</code></p>
+<hr>
+<p>Once you have done some work, whether creating new files you want git to track, making edits to existing files, you should run "git add" to "stage" the changes for the next "commit."</p>
+<p><code>git add NAME_OF_FILE </code></p>
+<p>or, to just add everything that has changed in the folder, use "git add . " &#x3C;- (the period matters)</p>
+<p><code>git add .</code></p>
+<hr>
+<p>Next, you need to commit. That's what you always hear growing up, right? Commit.
+When you create a "commit" in git, you should include a brief explanation of what you changed in the commit, in human readable language, so your teammates (or, more likely, you in 1 week) can read this and know what the commit contained.</p>
+<p><code>git commit -m "This commit is to fix the bug about not enough text."</code></p>
+<p>A commit is not yet a "Git Push." That comes later. Push is what actually sends the bits o'er the innerwebs to GitHub, or wherever you are directing them. </p>
+<hr>
+<p>If you need to change the git commit message, you can use "ammend."</p>
+<p><code>git commit --amend -m "Here is my corrected commit message" </code></p>
+<p>If you created a commit, but forgot to add an edited file to the commit, use: </p>
+<pre><code>git add FILE_NAME.TXT
+git commit --amend --NO-EDIT
+</code></pre>
+<hr>
+<p>If you want to see the status of what files are accounted for in the commit, and which are not, you can ask for the status...</p>
+<p><code>git status</code></p>
+<hr>
+<h3 id="git-diff">Git Diff<a aria-hidden="true" class="anchor-heading icon-link" href="#git-diff"></a></h3>
+<p>Ahhh git diff. Git Duff. 🍻</p>
+<p>What is the difference between these two files I am looking at?
+What code is in John's file that is not in Sara's file?</p>
+<p>What did I delete today that was there yesterday?</p>
+<p>Git diff can show you.</p>
+<p>Below, in a file called "intro.txt," I hit the enter key, the words "adding another line", and then hit the enter key again.</p>
+<p><code>git diff</code></p>
+<p><img src="/assets/images/2022-09-30-14-36-53.png"></p>
+<hr>
+<h3 id="git-pull">Git Pull<a aria-hidden="true" class="anchor-heading icon-link" href="#git-pull"></a></h3>
+<h3 id="switch-to-another-branch">Switch to another branch<a aria-hidden="true" class="anchor-heading icon-link" href="#switch-to-another-branch"></a></h3>
+<p>In git version 3.? they introduced 'switch' which saves a few steps, and is intended to clarify the many uses of git checkout.</p>
+<p><code>git switch type_branch_name_to_switch_to</code></p>
+<p>if you want to create a new branch and switch to it
+<code>git switch -c type_branch_name_to_switch_to</code></p>
+<hr>
+<p>To, in one step, create a new branch and check it out </p>
+<p>git checkout -b branch_name</p>
+<p>To create a new branch from a branch called "dev" and switch to it:
+<code>git switch -c branch_name dev</code> </p>

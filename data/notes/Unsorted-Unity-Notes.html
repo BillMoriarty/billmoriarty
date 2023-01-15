@@ -1,0 +1,119 @@
+<h1 id="unsorted-unity-notes">Unsorted Unity Notes<a aria-hidden="true" class="anchor-heading icon-link" href="#unsorted-unity-notes"></a></h1>
+<p><em>These notes need to be edited &#x26; sorted</em></p>
+<p>What is a "complicated particle system?"</p>
+<p>Unity Vs Unreal</p>
+<ul>
+<li>unity: larger community for helping learn</li>
+<li>unity: more documentation</li>
+<li>unreal: looks beautiful by default</li>
+<li>
+<ul>
+<li>has enabled by default</li>
+</ul>
+</li>
+<li>Unity: is trying to stand out by making themselves the XR development suite</li>
+</ul>
+<p>shader graph for altering the mesh</p>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" disabled> what is meant here by shader?</li>
+<li class="task-list-item"><input type="checkbox" disabled> what is meant here by graph?</li>
+<li class="task-list-item"><input type="checkbox" disabled> what is meant here by mesh?</li>
+</ul>
+<p>Unity Hub</p>
+<ul>
+<li>icons under each Unity install indicates what build modules are installed for that </li>
+</ul>
+<p>If you don't have "Add Modules" available, that is because you "located" that version of Unity instead of installing it</p>
+<p>They <em>highly</em> recommend you go through the
+"roll-a-ball" tutorial:</p>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" disabled> <a href="https://learn.unity.com/project/roll-a-ball">https://learn.unity.com/project/roll-a-ball</a></li>
+</ul>
+<p>Make full use of the Unity Community</p>
+<ul>
+<li><a href="https://unity.com/community">https://unity.com/community</a></li>
+</ul>
+<p>New project</p>
+<ul>
+<li>first choice are Render Options
+3D: this is the standard render pipeline
+HDRP</li>
+<li>use this for Desktop experiences
+Universal REnder pipeline</li>
+<li>use this in gerneal </li>
+</ul>
+<p>Camera</p>
+<ul>
+<li>audio listener</li>
+</ul>
+<p>Select a game object</p>
+<ul>
+<li>type 'f'</li>
+<li>it zooms in to that object </li>
+</ul>
+<p>Shift + Option + Command + click &#x26; drag</p>
+<p>Option + click &#x26; drag</p>
+<p>New Game Object</p>
+<ul>
+<li>Unity will place the object at the focus area</li>
+<li>people mostly don't use transforms, they manipulate in the scene view</li>
+</ul>
+<p><a title="Private" href="https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html" target="_blank" class="private">Unity.Mesh Renderer (Private)</a></p>
+<p><a href="/notes/Material">Material</a></p>
+<p><a href="/notes/Texture">Texture</a></p>
+<p>Global vs Local
+global: what the world considers to be forward
+local:</p>
+<p>hold down Command to snap in 15 degree elements</p>
+<hr>
+<p>Parent -> Child relationships</p>
+<p>If the Game Object is a child of the Parent
+And you edit the scale, rotation and position of the Parent, then the Child is moved proportionally.</p>
+<p>But when you modify the Parent's rotation such as -90, the Child's rotation can still say 0, because that is its local rotation.</p>
+<p>Pivot point is at the feet of a character.
+Center position is usually near their torso.</p>
+<p>How to snap Game Object to he plane</p>
+<ul>
+<li>hold down V</li>
+</ul>
+<p>If you duplicate a <a href="/notes/unity-Game-Object">Game Object</a>, and you want to edit it, you first have to assign it a material.
+Otherwise, if you edit it, it effects the original gameobject which was duplicated.</p>
+<h3 id="prefab-variants">Prefab Variants<a aria-hidden="true" class="anchor-heading icon-link" href="#prefab-variants"></a></h3>
+<p>A key concept
+<a href="https://docs.unity3d.com/Manual/PrefabVariants.html">https://docs.unity3d.com/Manual/PrefabVariants.html</a></p>
+<p>If you have too many start or awake functions, your app takes a long time to start.</p>
+<hr>
+<p>REcommendations for developing VR for Uculus
+<a href="https://developer.oculus.com/resources/publish-quest-req/">https://developer.oculus.com/resources/publish-quest-req/</a></p>
+<p>--</p>
+<p>Procedural generation</p>
+<p><a href="https://www.youtube.com/watch?v=64NblGkAabk&#x26;ab_channel=Brackeys">https://www.youtube.com/watch?v=64NblGkAabk&#x26;ab_channel=Brackeys</a></p>
+<p><a href="https://www.youtube.com/watch?v=y6KwsRkQ86U&#x26;ab_channel=DevOrenge">https://www.youtube.com/watch?v=y6KwsRkQ86U&#x26;ab_channel=DevOrenge</a></p>
+<p>--</p>
+<p>collider
+rigidBody</p>
+<p>XR grab interactable</p>
+<p>onTriggerEnter</p>
+<hr>
+<p>XR Interaction ToolKit Setup</p>
+<p>Package Manager Install XR Interaction ToolKit
+XR Interaction Tool Kit Package > Samples > Import Starter Assets (Optional Simulator for non VR Headset Users)
+Project Window> Samples>XR Interaction Toolkit > 2.0.0 > Starter Assets then select the asset “XRI Default Left Controller” (as well as right) and in the Inspector click “Add to ActionBasedController default” at the top of the inspector window
+Edit>Project Settings>Preset Manager then type in “Right” and “Left” to the left of the appropriate Preset input field
+Edit>Project Settings>XR Plug-in Management and enable desired platforms
+In the Hierarchy window add XR> XR Origin (Action Based)
+Add an “Input Action Manager” Component to the XR Rig
+Add to the action assets list the “XRI Default Input Actions” asset</p>
+<p>Add Grab Interactables and rigidbodies and colliders to objects you want to pick up
+Add Visuals for Hands by adding something into the model prefab property of each Controller component on the hands Or make them children of the controller and animate with events
+You can replace Line and Ray Interactors from Hands with Direct Interactors to reach out and grab objects instead of pointing and clicking</p>
+<hr>
+<p>If you make a prefab</p>
+<ul>
+<li>and make a child prefab
+that child will be loaded when the scene loads, and so it is ready to go instantly whenever you need it</li>
+<li>so if this is a Sound, that sound will be ready to play</li>
+<li>becuase Play On Awake is faster than calling Play Sound</li>
+<li>s by instantiaing the Bell Sound prefab, and it has the sound which will "Play On Awake" then it'll play instantly </li>
+</ul>
+<p><img src="/assets/images/2022-03-17-14-01-05.png"></p>

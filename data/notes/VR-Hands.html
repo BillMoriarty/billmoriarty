@@ -1,0 +1,23 @@
+<h1 id="vr-hands">VR Hands<a aria-hidden="true" class="anchor-heading icon-link" href="#vr-hands"></a></h1>
+<h2 id="notes-from-usman-mir">Notes from <a href="https://www.usmanmir.com">Usman Mir</a><a aria-hidden="true" class="anchor-heading icon-link" href="#notes-from-usman-mir"></a></h2>
+<h3 id="xr-interaction-toolkit-setup">XR Interaction ToolKit Setup<a aria-hidden="true" class="anchor-heading icon-link" href="#xr-interaction-toolkit-setup"></a></h3>
+<ol>
+<li>Package Manager Install XR Interaction ToolKit</li>
+<li>XR Interaction Tool Kit Package > Samples > Import Starter Assets (Optional Simulator for non VR Headset Users)</li>
+<li>Project Window> Samples>XR Interaction Toolkit > 2.0.0 > Starter Assets then select the asset “XRI Default Left Controller” (as well as right) and in the Inspector click “Add to ActionBasedController default” at the top of the inspector window</li>
+<li>Edit>Project Settings>Preset Manager then type in “Right” and “Left” to the left of the appropriate Preset input field</li>
+<li>In the Hierarchy window add XR> XR Origin (Action Based)</li>
+<li>Add an “Input Action Manager” Component to the XR Rig</li>
+<li>Add to the action assets list the “XRI Default Input Actions” asset</li>
+<li>Edit>Project Settings>XR Plug-in Management and enable desired platforms</li>
+</ol>
+<h3 id="misc">Misc.<a aria-hidden="true" class="anchor-heading icon-link" href="#misc"></a></h3>
+<ul>
+<li>Add Grab Interactables and rigidbodies and colliders to objects you want to pick up</li>
+<li>You can replace Line and Ray Interactors from Hands with Direct Interactors to reach out and grab objects instead of pointing and clicking</li>
+<li>Add Visuals for Hands by adding something into the model prefab property of each Controller component on the hands</li>
+</ul>
+<p><img src="/assets/images/locomotion_1.jpg"></p>
+<p><img src="/assets/images/locomotion_2.jpg"></p>
+<p><img src="/assets/images/locomotion_3.jpg"></p>
+<p><img src="/assets/images/locomotion_4.jpg"></p>

@@ -1,0 +1,76 @@
+<h1 id="python-references">Python References<a aria-hidden="true" class="anchor-heading icon-link" href="#python-references"></a></h1>
+<hr>
+<p>Dictionary operations</p>
+<p>New empty dictionary</p>
+<pre><code>new_dict = {}
+</code></pre>
+<p>Remove key and key's values from a dictionary. Just delete the key </p>
+<pre><code>del my_dictionary['bill']
+</code></pre>
+<hr>
+<p>floor division vs modulo operator</p>
+<pre><code>#floor
+101 // 4 = 25
+
+#modulo
+101 % 4 = 1
+</code></pre>
+<hr>
+<p>append to a list vs extend a list
+(extend is what I expected append to do)</p>
+<pre><code>x = [1,2,3]
+y = [4,5]
+
+x.append(y)
+[1,2,3, [4,5] ]
+
+x.extend(y)
+[1,2,3,4,5]
+</code></pre>
+<hr>
+<h2 id="list-operations">List operations<a aria-hidden="true" class="anchor-heading icon-link" href="#list-operations"></a></h2>
+<p>Remove item from list</p>
+<pre><code># create a list
+people = ['bill', 'john', 'sara']
+
+# remove from the list
+people.remove('sara)
+</code></pre>
+<hr>
+<h3 id="python-in-vscode">Python in VSCode<a aria-hidden="true" class="anchor-heading icon-link" href="#python-in-vscode"></a></h3>
+<p>To select which version of Python to use, which means selecting a python <em>interpreter</em></p>
+<ul>
+<li>open the Command Palette
+<img src="/assets/images/2022-03-08-10-35-30.png"></li>
+<li>then type: Python:Select Interpreter</li>
+<li>click 'Python:Select Interpreter'</li>
+<li>a drop down menu of python versions should appear</li>
+<li>pick the version you want to use</li>
+</ul>
+<hr>
+<h2 id="virtual-environments">Virtual Environments<a aria-hidden="true" class="anchor-heading icon-link" href="#virtual-environments"></a></h2>
+<p>Why do we need virtual environments?</p>
+<ul>
+<li>I'll refer to these below as 'venv'</li>
+</ul>
+<p>You can have different versions of Python on your computer.</p>
+<p>You can also have different versions of libraries. You might have a couple different of PyTorch. One project your working on might use a library which requires a specific version of another library. </p>
+<p>If you just update some package, one fo your projects might stop working because it can't find a version of something it's looking for. Messy.</p>
+<p>Virtual environments let us create a folder in which we install the specific package versions we need for a certain project we're working on.</p>
+<p>Then if another project needs an updated version, we can create a virtual environment just for that project, install the required versions, and thus keep our projects required packages separate from each other.</p>
+<p>With a virtual environment, we can also have separate versions of Python. Maybe one project needs Python 3.8, and another needs 3.10.</p>
+<p>How to make one using command line:</p>
+<ul>
+<li>create an empty folder</li>
+<li>cd into that folder</li>
+<li>run: <code>python -m venv env</code> or, if you want to specify the Python version such as  3.9, run <code>python3.9 -m venv env</code></li>
+</ul>
+<p>If you look in the folder you created to see what is there, within the 'bin' folder you will see the version of python which was used to create this virtual environment.</p>
+<p>Now we want to use this venv.
+The word they chose for that action is to 'activate' the venv.</p>
+<p>cd into the env/bin/</p>
+<p>run: <code>source activate</code></p>
+<p>Now you should see: '(env) some<em>more_words</em> bin'</p>
+<p>To exit it, run: <code>deactivate</code></p>
+<p>Let's start it back up again: run: <code>source activate</code>
+Ok now that we're in here, we can <code>pip install</code> the packages we need for this project.</p>

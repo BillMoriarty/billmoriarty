@@ -1,0 +1,14 @@
+<h1 id="render-queue">Render Queue<a aria-hidden="true" class="anchor-heading icon-link" href="#render-queue"></a></h1>
+<p>Properties
+from: <a href="https://docs.unity3d.com/ScriptReference/Rendering.RenderQueue.html">https://docs.unity3d.com/ScriptReference/Rendering.RenderQueue.html</a></p>
+<p>Background	This render queue is rendered before any others.</p>
+<p>Geometry	Opaque geometry uses this queue.</p>
+<p>AlphaTest	Alpha tested geometry uses this queue.</p>
+<p>GeometryLast	Last render queue that is considered "opaque".</p>
+<p>Transparent	This render queue is rendered after Geometry and AlphaTest, in
+back-to-front order.</p>
+<p>Overlay	This render queue is meant for overlay effects.</p>
+<p>You can use these in creative ways.</p>
+<p>You can place a transparent objedct inbetween then camera and some opaque object.</p>
+<p>Then set the render queue of the opaque object to be a higher value, such as 3001. </p>
+<p>This enable Unity to crop the portion of the opaque object </p>

@@ -1,0 +1,16 @@
+<h1 id="vuforia">Vuforia<a aria-hidden="true" class="anchor-heading icon-link" href="#vuforia"></a></h1>
+<p>This is an augmented reality library for Unity.</p>
+<p>Vuforia goes straight to the hardware's camera. It only uses the camera.</p>
+<p>PTC bought Vuforia from Qualcomm.</p>
+<p>Player Settings
+<img src="/assets/images/2022-03-09-11-09-04.png"></p>
+<h2 id="errors--how-to-solve-them">Errors &#x26; How to Solve Them<a aria-hidden="true" class="anchor-heading icon-link" href="#errors--how-to-solve-them"></a></h2>
+<p><code>[ufw runUIApplicationMainWithArgc: argc argv: argv]; </code></p>
+<blockquote>
+<p>For anyone else that runs into this error the solution was two-fold. </p>
+<ul>
+<li>You have to uncheck "Strip Engine Code" in Unity under player settings > IOS. </li>
+<li>Then in Xcode, you have to find (under either Swift or Apple Clang - code generation) a setting called 'Optimization Level' and set it to none.
+<a href="https://forum.unity.com/threads/xcode-error-when-building-thread-1-exc_bad_access.802374/">https://forum.unity.com/threads/xcode-error-when-building-thread-1-exc_bad_access.802374/</a></li>
+</ul>
+</blockquote>

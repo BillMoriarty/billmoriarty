@@ -1,0 +1,4127 @@
+{
+  "notes": {
+    "403": {
+      "vault": {
+        "fsPath": "vault"
+      },
+      "fname": "403",
+      "id": "403",
+      "title": "This page has not yet sprouted",
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1673749672390,
+      "created": 1673749672390,
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": null,
+      "data": {}
+    },
+    "wn8PE1RhG0znK1alrGFYv": {
+      "id": "wn8PE1RhG0znK1alrGFYv",
+      "title": "Home",
+      "desc": "Personal Website of Bill Moriarty",
+      "updated": 1673749560079,
+      "created": 1631901573363,
+      "custom": {
+        "nav_order": 0,
+        "permalink": "/"
+      },
+      "fname": "root",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "ffde8fd27559f8d19705063ad3e5f2c0",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "Advice-for-Artists",
+        "Apple-Augmented-Reality-Notes",
+        "Augmented-Reality-Project",
+        "Books",
+        "Computer-Vision-References",
+        "git-commands-reference",
+        "Giving-Up-A-Smartphone",
+        "Linear-Algebra",
+        "Machine-Learning",
+        "Microphone-Reviews",
+        "Money-&-Finances",
+        "Normalize-Data",
+        "Python-References",
+        "TypeScript",
+        "Unity",
+        "fakolx1uvji6122gd5tci4c",
+        "Recordings"
+      ],
+      "parent": null,
+      "data": {}
+    },
+    "Recordings": {
+      "id": "Recordings",
+      "title": "Recordings",
+      "desc": "",
+      "updated": 1643924978678,
+      "created": 1643920025060,
+      "custom": {
+        "stub": false
+      },
+      "fname": "recordings",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "e36892de666ecabde1f9a28ec4705989",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "Ali-Wadsworth",
+        "Asleep-In-My-Shoes",
+        "Awoken-by-Bigtree-Bonsai",
+        "Beyond-the-Station",
+        "Drink-Up-Buttercup",
+        "Casco-Bay"
+      ],
+      "parent": "wn8PE1RhG0znK1alrGFYv",
+      "data": {}
+    },
+    "Casco-Bay": {
+      "id": "Casco-Bay",
+      "title": "Casco Bay, by Bill Moriarty",
+      "desc": "",
+      "updated": 1644115418833,
+      "created": 1644115418833,
+      "artist": "Bill Moriarty",
+      "header": {
+        "teaser": "https://f4.bcbits.com/img/a0861656697_16.jpg"
+      },
+      "custom": {
+        "artist": "Bill Moriarty",
+        "header": {
+          "teaser": "https://f4.bcbits.com/img/a0861656697_16.jpg"
+        }
+      },
+      "fname": "recordings.Casco-Bay",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "451ba9df18184b725be514d1cff84947",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "Recordings",
+      "data": {}
+    },
+    "Drink-Up-Buttercup": {
+      "id": "Drink-Up-Buttercup",
+      "title": "Born And Thrown On A Hook, by Drink Up Buttercup",
+      "desc": "",
+      "updated": 1644115418832,
+      "created": 1644115418832,
+      "artist": "Drink Up Buttercup",
+      "header": {
+        "teaser": "https://f4.bcbits.com/img/a3346733349_16.jpg"
+      },
+      "custom": {
+        "artist": "Drink Up Buttercup",
+        "header": {
+          "teaser": "https://f4.bcbits.com/img/a3346733349_16.jpg"
+        }
+      },
+      "fname": "recordings.Born-And-Thrown-On-A-Hook",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "c246acd479d63b59461933b075a1f145",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "Recordings",
+      "data": {}
+    },
+    "Beyond-the-Station": {
+      "id": "Beyond-the-Station",
+      "title": "Beyond the Station, by Annabelle''s Curse",
+      "desc": "",
+      "updated": 1644115464412,
+      "created": 1644115418832,
+      "artist": "Annabelle's Curse",
+      "header": {
+        "teaser": "https://f4.bcbits.com/img/a1291863882_16.jpg"
+      },
+      "custom": {
+        "artist": "Annabelle's Curse",
+        "header": {
+          "teaser": "https://f4.bcbits.com/img/a1291863882_16.jpg"
+        }
+      },
+      "fname": "recordings.Beyond-the-Station",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "250a2113ce8131d6f6af1ceae518c0a0",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "Recordings",
+      "data": {}
+    },
+    "Awoken-by-Bigtree-Bonsai": {
+      "id": "Awoken-by-Bigtree-Bonsai",
+      "title": "Awoken, by Bigtree Bonsai",
+      "desc": "",
+      "updated": 1644115293139,
+      "created": 1644115293139,
+      "artist": "Bigtree Bonsai",
+      "header": {
+        "teaser": "https://f4.bcbits.com/img/a0128222479_16.jpg"
+      },
+      "custom": {
+        "artist": "Bigtree Bonsai",
+        "header": {
+          "teaser": "https://f4.bcbits.com/img/a0128222479_16.jpg"
+        }
+      },
+      "fname": "recordings.Awoken",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "77e8083990a7becb4cb826eb065d7450",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "Recordings",
+      "data": {}
+    },
+    "Asleep-In-My-Shoes": {
+      "id": "Asleep-In-My-Shoes",
+      "title": "Asleep In My Shoes, by Joe D'Amico",
+      "desc": "",
+      "updated": 1643943444347,
+      "created": 1643562501772,
+      "artist": "Joe D'Amico",
+      "custom": {
+        "artist": "Joe D'Amico"
+      },
+      "fname": "recordings.Asleep-In-My-Shoes",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "443e7ededaf2debd99b576cd2d91e42f",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "Recordings",
+      "data": {}
+    },
+    "Ali-Wadsworth": {
+      "id": "Ali-Wadsworth",
+      "title": "Ali Wadsworth, by Ali Wadsworth",
+      "desc": "",
+      "updated": 1643944579954,
+      "created": 1643562501770,
+      "custom": {},
+      "fname": "recordings.Ali-Wadsworth",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "e60a111eb72b480161ecad8fb4f824c2",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "Recordings",
+      "data": {}
+    },
+    "fakolx1uvji6122gd5tci4c": {
+      "id": "fakolx1uvji6122gd5tci4c",
+      "title": "XR Resources",
+      "desc": "",
+      "updated": 1658836201557,
+      "created": 1658836169886,
+      "custom": {},
+      "fname": "XR Resources",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "16148c41605c8fa885d5eaf60777ce15",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "9pignr111v10igdo558kbuu"
+      ],
+      "parent": "wn8PE1RhG0znK1alrGFYv",
+      "data": {}
+    },
+    "9pignr111v10igdo558kbuu": {
+      "id": "9pignr111v10igdo558kbuu",
+      "title": "Tim Dwyer",
+      "desc": "",
+      "updated": 1658837623042,
+      "created": 1658836269952,
+      "custom": {},
+      "fname": "XR Resources.Tim Dwyer",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "2977c0c561d8f38dc52e587a1f7f5e78",
+      "links": [],
+      "anchors": {
+        "flow-maps": {
+          "type": "header",
+          "text": "\"Flow-maps\"",
+          "value": "flow-maps",
+          "line": 42,
+          "column": 0,
+          "depth": 3
+        },
+        "collaborative-data-visualization": {
+          "type": "header",
+          "text": "collaborative data visualization",
+          "value": "collaborative-data-visualization",
+          "line": 79,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [],
+      "parent": "fakolx1uvji6122gd5tci4c",
+      "data": {}
+    },
+    "Unity": {
+      "id": "Unity",
+      "title": "Unity",
+      "desc": "",
+      "updated": 1644349100775,
+      "created": 1643924025319,
+      "custom": {
+        "stub": false
+      },
+      "fname": "Unity",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "52c99af275221562e0f09dfa71a121da",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "d5ih3t1042m0cvz9cu277no",
+        "gcofin8n8tdzsqm21h8y3w6",
+        "AR-Foundation",
+        "unity-Asset-Store",
+        "C-sharp-Scripts",
+        "Camera-Offset",
+        "Unity-Collider",
+        "sz2un22hz9thizmzyhdx1fh",
+        "Early-Learnings",
+        "unity-Game-Object",
+        "unity-game-view",
+        "unity-getting-started",
+        "unity-hierarchy-window",
+        "Hungarian-Notation",
+        "unity-inspector",
+        "Locomotion",
+        "Unity-mac-vs-windows",
+        "Material",
+        "Mesh",
+        "Meshes-Materials-Shaders-Textures",
+        "OnCollisionEnter",
+        "orbit",
+        "Order-of-Updates",
+        "orientation",
+        "Particle-Systems",
+        "pink-objects",
+        "probuilder",
+        "unity-Project-View",
+        "publish-game",
+        "Render-Queue",
+        "Renderer",
+        "unity-scene-view",
+        "unity-scene",
+        "shader",
+        "90xgvzs0yqqve2ydb25aq8o",
+        "Texture",
+        "to-do",
+        "Unsorted-Unity-Notes",
+        "VR-Hands",
+        "vr-text",
+        "video-playback",
+        "Virtual-Reality-Setup",
+        "vuforia",
+        "XR-Grab-Interactable",
+        "unity-asset",
+        "i2xfm40j3nxbydwlk5ielv4"
+      ],
+      "parent": "wn8PE1RhG0znK1alrGFYv",
+      "data": {}
+    },
+    "i2xfm40j3nxbydwlk5ielv4": {
+      "fname": "Unity.Physics",
+      "stub": true,
+      "vault": {
+        "fsPath": "vault"
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1673749670892,
+      "created": 1673749670892,
+      "id": "i2xfm40j3nxbydwlk5ielv4",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "Rigidbody"
+      ],
+      "parent": "Unity",
+      "data": {},
+      "title": "Physics"
+    },
+    "Rigidbody": {
+      "id": "Rigidbody",
+      "title": "Rigidbody",
+      "desc": "",
+      "updated": 1650980874776,
+      "created": 1644346568897,
+      "custom": {},
+      "fname": "Unity.Physics.Rigidbody",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "8634bb33a43bbafcf48c2ad236905d07",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Unity.Physics.Rigidbody",
+            "id": "Rigidbody",
+            "vaultName": "vault"
+          },
+          "value": "Unity.Game Object",
+          "position": {
+            "start": {
+              "line": 3,
+              "column": 15,
+              "offset": 59
+            },
+            "end": {
+              "line": 3,
+              "column": 36,
+              "offset": 80
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Unity.Game Object"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Unity.Physics.Rigidbody",
+            "id": "Rigidbody",
+            "vaultName": "vault"
+          },
+          "value": "Unity.Game Object",
+          "position": {
+            "start": {
+              "line": 9,
+              "column": 5,
+              "offset": 150
+            },
+            "end": {
+              "line": 9,
+              "column": 26,
+              "offset": 171
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Unity.Game Object"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Unity.Physics.Rigidbody",
+            "id": "Rigidbody",
+            "vaultName": "vault"
+          },
+          "value": "Unity.Collider",
+          "position": {
+            "start": {
+              "line": 9,
+              "column": 44,
+              "offset": 189
+            },
+            "end": {
+              "line": 9,
+              "column": 62,
+              "offset": 207
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Unity.Collider"
+          }
+        },
+        {
+          "from": {
+            "fname": "Unity.Collision",
+            "id": "sz2un22hz9thizmzyhdx1fh",
+            "vaultName": "vault"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 3,
+              "column": 31,
+              "offset": 105
+            },
+            "end": {
+              "line": 3,
+              "column": 58,
+              "offset": 132
+            },
+            "indent": []
+          },
+          "value": "Unity.Physics.Rigidbody"
+        },
+        {
+          "from": {
+            "fname": "Unity.OnCollisionEnter",
+            "id": "OnCollisionEnter",
+            "vaultName": "vault"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 2,
+              "column": 64,
+              "offset": 64
+            },
+            "end": {
+              "line": 2,
+              "column": 91,
+              "offset": 91
+            },
+            "indent": []
+          },
+          "value": "Unity.Physics.Rigidbody"
+        },
+        {
+          "from": {
+            "fname": "Unity.XR Grab Interactable",
+            "id": "XR-Grab-Interactable",
+            "vaultName": "vault"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 2,
+              "column": 96,
+              "offset": 96
+            },
+            "end": {
+              "line": 2,
+              "column": 123,
+              "offset": 123
+            },
+            "indent": []
+          },
+          "value": "Unity.Physics.Rigidbody"
+        }
+      ],
+      "anchors": {
+        "mass": {
+          "type": "header",
+          "text": "Mass",
+          "value": "mass",
+          "line": 17,
+          "column": 0,
+          "depth": 3
+        },
+        "drag": {
+          "type": "header",
+          "text": "Drag",
+          "value": "drag",
+          "line": 20,
+          "column": 0,
+          "depth": 3
+        },
+        "angular-drag": {
+          "type": "header",
+          "text": "Angular Drag",
+          "value": "angular-drag",
+          "line": 25,
+          "column": 0,
+          "depth": 3
+        },
+        "use-gravity": {
+          "type": "header",
+          "text": "Use Gravity",
+          "value": "use-gravity",
+          "line": 28,
+          "column": 0,
+          "depth": 3
+        },
+        "is-kinematic": {
+          "type": "header",
+          "text": "Is Kinematic",
+          "value": "is-kinematic",
+          "line": 33,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [],
+      "parent": "i2xfm40j3nxbydwlk5ielv4",
+      "data": {}
+    },
+    "unity-asset": {
+      "id": "unity-asset",
+      "title": "asset",
+      "desc": "",
+      "updated": 1644356327336,
+      "created": 1644345787984,
+      "custom": {},
+      "fname": "Unity.asset",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "67e3034c47ac2e2bc0c735effe7b4528",
+      "links": [
+        {
+          "from": {
+            "fname": "Unity.Asset Store",
+            "id": "unity-Asset-Store",
+            "vaultName": "vault"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 2,
+              "column": 95,
+              "offset": 95
+            },
+            "end": {
+              "line": 2,
+              "column": 110,
+              "offset": 110
+            },
+            "indent": []
+          },
+          "value": "Unity.asset"
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "Unity",
+      "data": {}
+    },
+    "XR-Grab-Interactable": {
+      "id": "XR-Grab-Interactable",
+      "title": "XR Grab Interactable",
+      "desc": "",
+      "updated": 1650632409762,
+      "created": 1650632321918,
+      "custom": {},
+      "fname": "Unity.XR Grab Interactable",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "13d1292e253c666174a90f1a07d08ce2",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Unity.XR Grab Interactable",
+            "id": "XR-Grab-Interactable",
+            "vaultName": "vault"
+          },
+          "value": "Unity.Physics.Rigidbody",
+          "position": {
+            "start": {
+              "line": 2,
+              "column": 96,
+              "offset": 96
+            },
+            "end": {
+              "line": 2,
+              "column": 123,
+              "offset": 123
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Unity.Physics.Rigidbody"
+          }
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "Unity",
+      "data": {}
+    },
+    "vuforia": {
+      "id": "vuforia",
+      "title": "Vuforia",
+      "desc": "",
+      "updated": 1646843165231,
+      "created": 1646331149609,
+      "custom": {},
+      "fname": "Unity.Vuforia",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "a8085907740ec495961836b93e4a4aef",
+      "links": [],
+      "anchors": {
+        "errors--how-to-solve-them": {
+          "type": "header",
+          "text": "Errors & How to Solve Them",
+          "value": "errors--how-to-solve-them",
+          "line": 17,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "Unity",
+      "data": {}
+    },
+    "Virtual-Reality-Setup": {
+      "id": "Virtual-Reality-Setup",
+      "title": "Virtual Reality Setup",
+      "desc": "",
+      "updated": 1647619016529,
+      "created": 1646952062725,
+      "custom": {},
+      "fname": "Unity.Virtual Reality Setup",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "0c2fcd5bcdd277796167caef49e12ecf",
+      "links": [],
+      "anchors": {
+        "in-the-xr-origin": {
+          "type": "header",
+          "text": "In the XR Origin",
+          "value": "in-the-xr-origin",
+          "line": 31,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [],
+      "parent": "Unity",
+      "data": {}
+    },
+    "video-playback": {
+      "id": "video-playback",
+      "title": "Video Playback",
+      "desc": "",
+      "updated": 1646857449374,
+      "created": 1646857449374,
+      "custom": {},
+      "fname": "Unity.Video Playback",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "cf523ca0cff9580cb1b3c9c786d56545",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "Unity",
+      "data": {}
+    },
+    "vr-text": {
+      "id": "vr-text",
+      "title": "VR Text",
+      "desc": "",
+      "updated": 1647614490619,
+      "created": 1647614490619,
+      "custom": {},
+      "fname": "Unity.VR Text",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "6d5559044e6aab028073494752fc0fc9",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "Unity",
+      "data": {}
+    },
+    "VR-Hands": {
+      "id": "VR-Hands",
+      "title": "VR Hands",
+      "desc": "",
+      "updated": 1648151035764,
+      "created": 1648150466009,
+      "custom": {},
+      "fname": "Unity.VR Hands",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "72da8fe8a6d36ccc7da19e76ae155b42",
+      "links": [],
+      "anchors": {
+        "notes-from-usman-mir": {
+          "type": "header",
+          "text": "Notes from Usman Mir",
+          "value": "notes-from-usman-mir",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        },
+        "xr-interaction-toolkit-setup": {
+          "type": "header",
+          "text": "XR Interaction ToolKit Setup",
+          "value": "xr-interaction-toolkit-setup",
+          "line": 10,
+          "column": 0,
+          "depth": 3
+        },
+        "misc": {
+          "type": "header",
+          "text": "Misc.",
+          "value": "misc",
+          "line": 22,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [],
+      "parent": "Unity",
+      "data": {}
+    },
+    "Unsorted-Unity-Notes": {
+      "id": "Unsorted-Unity-Notes",
+      "title": "Unsorted Unity Notes",
+      "desc": "",
+      "updated": 1647614432157,
+      "created": 1644944601514,
+      "custom": {},
+      "fname": "Unity.Unsorted Unity Notes",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "f6ce0016c1562e479cb1bdfe04b059e8",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Unity.Unsorted Unity Notes",
+            "id": "Unsorted-Unity-Notes",
+            "vaultName": "vault"
+          },
+          "value": "Unity.Mesh Renderer",
+          "position": {
+            "start": {
+              "line": 61,
+              "column": 1,
+              "offset": 1335
+            },
+            "end": {
+              "line": 61,
+              "column": 24,
+              "offset": 1358
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Unity.Mesh Renderer"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Unity.Unsorted Unity Notes",
+            "id": "Unsorted-Unity-Notes",
+            "vaultName": "vault"
+          },
+          "value": "Unity.Material",
+          "position": {
+            "start": {
+              "line": 64,
+              "column": 1,
+              "offset": 1361
+            },
+            "end": {
+              "line": 64,
+              "column": 19,
+              "offset": 1379
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Unity.Material"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Unity.Unsorted Unity Notes",
+            "id": "Unsorted-Unity-Notes",
+            "vaultName": "vault"
+          },
+          "value": "Unity.Texture",
+          "position": {
+            "start": {
+              "line": 67,
+              "column": 1,
+              "offset": 1382
+            },
+            "end": {
+              "line": 67,
+              "column": 18,
+              "offset": 1399
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Unity.Texture"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Unity.Unsorted Unity Notes",
+            "id": "Unsorted-Unity-Notes",
+            "vaultName": "vault"
+          },
+          "value": "Unity.Game Object",
+          "position": {
+            "start": {
+              "line": 94,
+              "column": 20,
+              "offset": 1996
+            },
+            "end": {
+              "line": 94,
+              "column": 41,
+              "offset": 2017
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Unity.Game Object"
+          }
+        }
+      ],
+      "anchors": {
+        "prefab-variants": {
+          "type": "header",
+          "text": "Prefab Variants",
+          "value": "prefab-variants",
+          "line": 105,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [],
+      "parent": "Unity",
+      "data": {}
+    },
+    "to-do": {
+      "id": "to-do",
+      "title": "To Do",
+      "desc": "",
+      "updated": 1646767609861,
+      "created": 1646767609861,
+      "custom": {},
+      "fname": "Unity.To Do",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "9048a486a61c1ef1f787b58e69bce584",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "Unity",
+      "data": {}
+    },
+    "Texture": {
+      "id": "Texture",
+      "title": "Texture",
+      "desc": "",
+      "updated": 1646841842186,
+      "created": 1646841842186,
+      "custom": {},
+      "fname": "Unity.Texture",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "90e3774c545bd02588eaa254444dcea2",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Unity.Texture",
+            "id": "Texture",
+            "vaultName": "vault"
+          },
+          "value": "Unity.Material",
+          "position": {
+            "start": {
+              "line": 5,
+              "column": 28,
+              "offset": 139
+            },
+            "end": {
+              "line": 5,
+              "column": 46,
+              "offset": 157
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Unity.Material"
+          }
+        },
+        {
+          "from": {
+            "fname": "Unity.Meshes, Materials, Shaders and Textures",
+            "id": "Meshes-Materials-Shaders-Textures",
+            "vaultName": "vault"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 7,
+              "column": 12,
+              "offset": 732
+            },
+            "end": {
+              "line": 7,
+              "column": 29,
+              "offset": 749
+            },
+            "indent": []
+          },
+          "value": "Unity.Texture"
+        },
+        {
+          "from": {
+            "fname": "Unity.Unsorted Unity Notes",
+            "id": "Unsorted-Unity-Notes",
+            "vaultName": "vault"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 67,
+              "column": 1,
+              "offset": 1382
+            },
+            "end": {
+              "line": 67,
+              "column": 18,
+              "offset": 1399
+            },
+            "indent": []
+          },
+          "value": "Unity.Texture"
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "Unity",
+      "data": {}
+    },
+    "90xgvzs0yqqve2ydb25aq8o": {
+      "id": "90xgvzs0yqqve2ydb25aq8o",
+      "title": "Temp Note",
+      "desc": "",
+      "updated": 1651004259523,
+      "created": 1651004259523,
+      "custom": {},
+      "fname": "Unity.Temp Note",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "45c46a4b870ca661a9114c1ff8c4f4b0",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "Unity",
+      "data": {}
+    },
+    "shader": {
+      "id": "shader",
+      "title": "Shader",
+      "desc": "",
+      "updated": 1646763019766,
+      "created": 1646763019766,
+      "custom": {},
+      "fname": "Unity.Shader",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "0839ef1f40581ee15219769030939ac2",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Unity.Shader",
+            "id": "shader",
+            "vaultName": "vault"
+          },
+          "value": "Unity.Material",
+          "position": {
+            "start": {
+              "line": 2,
+              "column": 23,
+              "offset": 23
+            },
+            "end": {
+              "line": 2,
+              "column": 41,
+              "offset": 41
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Unity.Material"
+          }
+        },
+        {
+          "from": {
+            "fname": "Unity.Meshes, Materials, Shaders and Textures",
+            "id": "Meshes-Materials-Shaders-Textures",
+            "vaultName": "vault"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 6,
+              "column": 11,
+              "offset": 518
+            },
+            "end": {
+              "line": 6,
+              "column": 27,
+              "offset": 534
+            },
+            "indent": []
+          },
+          "value": "Unity.Shader"
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "Unity",
+      "data": {}
+    },
+    "unity-scene": {
+      "id": "unity-scene",
+      "title": "Scene",
+      "desc": "",
+      "updated": 1645714106097,
+      "created": 1644344756982,
+      "custom": {},
+      "fname": "Unity.Scene",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "d019f10b90ec351887b5b943c4d9beaf",
+      "links": [
+        {
+          "from": {
+            "fname": "Unity.Game Object",
+            "id": "unity-Game-Object",
+            "vaultName": "vault"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 2,
+              "column": 23,
+              "offset": 23
+            },
+            "end": {
+              "line": 2,
+              "column": 38,
+              "offset": 38
+            },
+            "indent": []
+          },
+          "value": "Unity.Scene"
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "Unity",
+      "data": {}
+    },
+    "unity-scene-view": {
+      "id": "unity-scene-view",
+      "title": "Scene View",
+      "desc": "",
+      "updated": 1644345277248,
+      "created": 1644345270234,
+      "custom": {},
+      "fname": "Unity.Scene View",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "256cbbb87cf6614ab90f6b1d42d480ba",
+      "links": [
+        {
+          "from": {
+            "fname": "Unity.Game Object",
+            "id": "unity-Game-Object",
+            "vaultName": "vault"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 11,
+              "column": 27,
+              "offset": 323
+            },
+            "end": {
+              "line": 11,
+              "column": 47,
+              "offset": 343
+            },
+            "indent": []
+          },
+          "value": "Unity.Scene View"
+        },
+        {
+          "from": {
+            "fname": "Unity.Getting Started",
+            "id": "unity-getting-started",
+            "vaultName": "vault"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 3,
+              "column": 4,
+              "offset": 36
+            },
+            "end": {
+              "line": 3,
+              "column": 24,
+              "offset": 56
+            },
+            "indent": []
+          },
+          "value": "Unity.Scene View"
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "Unity",
+      "data": {}
+    },
+    "Renderer": {
+      "id": "Renderer",
+      "title": "Renderer",
+      "desc": "",
+      "updated": 1646845310289,
+      "created": 1646845310290,
+      "custom": {},
+      "fname": "Unity.Renderer",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "58c5f2f568fb44236e47b32cf4cc0b14",
+      "links": [
+        {
+          "from": {
+            "fname": "Unity.Material",
+            "id": "Material",
+            "vaultName": "vault"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 4,
+              "column": 33,
+              "offset": 181
+            },
+            "end": {
+              "line": 4,
+              "column": 51,
+              "offset": 199
+            },
+            "indent": []
+          },
+          "value": "Unity.Renderer"
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "Unity",
+      "data": {}
+    },
+    "Render-Queue": {
+      "id": "Render-Queue",
+      "title": "Render Queue",
+      "desc": "",
+      "updated": 1646763875202,
+      "created": 1646763875202,
+      "custom": {},
+      "fname": "Unity.Render Queue",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "437ad82226c430b8cf17732456ba5ffd",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "Unity",
+      "data": {}
+    },
+    "publish-game": {
+      "id": "publish-game",
+      "title": "Publish Game",
+      "desc": "",
+      "updated": 1644356783172,
+      "created": 1644356783172,
+      "custom": {},
+      "fname": "Unity.Publish Game",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "f8aeed5757f2eedc197c8c211a495702",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "Unity",
+      "data": {}
+    },
+    "unity-Project-View": {
+      "id": "unity-Project-View",
+      "title": "Project View",
+      "desc": "",
+      "updated": 1644345467156,
+      "created": 1644345457500,
+      "custom": {},
+      "fname": "Unity.Project View",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "eaab28f731c82c0a4fe15b0c71c4f358",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "Unity",
+      "data": {}
+    },
+    "probuilder": {
+      "id": "probuilder",
+      "title": "ProBuilder",
+      "desc": "",
+      "updated": 1645124202707,
+      "created": 1645124202707,
+      "custom": {},
+      "fname": "Unity.ProBuilder",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "471b1fb8e66790394085ed00b76e6044",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "Unity",
+      "data": {}
+    },
+    "pink-objects": {
+      "id": "pink-objects",
+      "title": "Pink Objects",
+      "desc": "",
+      "updated": 1645750518733,
+      "created": 1645750518733,
+      "custom": {},
+      "fname": "Unity.Pink Objects",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "da74633dc54a203af40c0eb5bdefef6b",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Unity.Pink Objects",
+            "id": "pink-objects",
+            "vaultName": "vault"
+          },
+          "value": "Unity.Game Object",
+          "position": {
+            "start": {
+              "line": 2,
+              "column": 8,
+              "offset": 8
+            },
+            "end": {
+              "line": 2,
+              "column": 29,
+              "offset": 29
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Unity.Game Object"
+          }
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "Unity",
+      "data": {}
+    },
+    "Particle-Systems": {
+      "id": "Particle-Systems",
+      "title": "Particle Systems",
+      "desc": "",
+      "updated": 1647364044290,
+      "created": 1647364044290,
+      "custom": {},
+      "fname": "Unity.Particle Systems",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "2b97c0ba4e3a8350b4ec0c638ddd10cc",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "Unity",
+      "data": {}
+    },
+    "orientation": {
+      "id": "orientation",
+      "title": "Orientation",
+      "desc": "",
+      "updated": 1646162085677,
+      "created": 1646162085678,
+      "custom": {},
+      "fname": "Unity.Orientation",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "b841c3f5939cc04c421f3d11ee5e1fee",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "Unity",
+      "data": {}
+    },
+    "Order-of-Updates": {
+      "id": "Order-of-Updates",
+      "title": "Order of Updates",
+      "desc": "",
+      "updated": 1645556100354,
+      "created": 1645556100354,
+      "custom": {},
+      "fname": "Unity.Order of Updates",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "e5540b90ed3059aeb742e285644ab845",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "Unity",
+      "data": {}
+    },
+    "orbit": {
+      "id": "orbit",
+      "title": "Orbits",
+      "desc": "",
+      "updated": 1646607212416,
+      "created": 1646074655661,
+      "custom": {},
+      "fname": "Unity.Orbits",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "120aefbc8ba1a14eac6f29ce623de951",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Unity.Orbits",
+            "id": "orbit",
+            "vaultName": "vault"
+          },
+          "value": "Normalize Data",
+          "position": {
+            "start": {
+              "line": 2,
+              "column": 1,
+              "offset": 1
+            },
+            "end": {
+              "line": 2,
+              "column": 19,
+              "offset": 19
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Normalize Data"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Unity.Orbits",
+            "id": "orbit",
+            "vaultName": "vault"
+          },
+          "value": "Unity.Game Object",
+          "position": {
+            "start": {
+              "line": 4,
+              "column": 35,
+              "offset": 55
+            },
+            "end": {
+              "line": 4,
+              "column": 56,
+              "offset": 76
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Unity.Game Object"
+          }
+        },
+        {
+          "from": {
+            "fname": "Normalize Data",
+            "id": "Normalize-Data",
+            "vaultName": "vault"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 31,
+              "column": 63,
+              "offset": 1217
+            },
+            "end": {
+              "line": 31,
+              "column": 79,
+              "offset": 1233
+            },
+            "indent": []
+          },
+          "value": "Unity.Orbits"
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "Unity",
+      "data": {}
+    },
+    "OnCollisionEnter": {
+      "id": "OnCollisionEnter",
+      "title": "OnCollisionEnter",
+      "desc": "",
+      "updated": 1647367068075,
+      "created": 1647367068075,
+      "custom": {},
+      "fname": "Unity.OnCollisionEnter",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "b63f70353aa780cf132e412e78747fa4",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Unity.OnCollisionEnter",
+            "id": "OnCollisionEnter",
+            "vaultName": "vault"
+          },
+          "value": "Unity.Physics.Rigidbody",
+          "position": {
+            "start": {
+              "line": 2,
+              "column": 64,
+              "offset": 64
+            },
+            "end": {
+              "line": 2,
+              "column": 91,
+              "offset": 91
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Unity.Physics.Rigidbody"
+          }
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "Unity",
+      "data": {}
+    },
+    "Meshes-Materials-Shaders-Textures": {
+      "id": "Meshes-Materials-Shaders-Textures",
+      "title": "Meshes, Materials, Shaders and Textures",
+      "desc": "",
+      "updated": 1646845477615,
+      "created": 1646845477615,
+      "custom": {},
+      "fname": "Unity.Meshes, Materials, Shaders and Textures",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "1d887353a5c745c517f323b4bf67a405",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Unity.Meshes, Materials, Shaders and Textures",
+            "id": "Meshes-Materials-Shaders-Textures",
+            "vaultName": "vault"
+          },
+          "value": "Unity.Mesh",
+          "position": {
+            "start": {
+              "line": 4,
+              "column": 10,
+              "offset": 169
+            },
+            "end": {
+              "line": 4,
+              "column": 24,
+              "offset": 183
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Unity.Mesh"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Unity.Meshes, Materials, Shaders and Textures",
+            "id": "Meshes-Materials-Shaders-Textures",
+            "vaultName": "vault"
+          },
+          "value": "Unity.Material",
+          "position": {
+            "start": {
+              "line": 5,
+              "column": 13,
+              "offset": 274
+            },
+            "end": {
+              "line": 5,
+              "column": 31,
+              "offset": 292
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Unity.Material"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Unity.Meshes, Materials, Shaders and Textures",
+            "id": "Meshes-Materials-Shaders-Textures",
+            "vaultName": "vault"
+          },
+          "value": "Unity.Shader",
+          "position": {
+            "start": {
+              "line": 6,
+              "column": 11,
+              "offset": 518
+            },
+            "end": {
+              "line": 6,
+              "column": 27,
+              "offset": 534
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Unity.Shader"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Unity.Meshes, Materials, Shaders and Textures",
+            "id": "Meshes-Materials-Shaders-Textures",
+            "vaultName": "vault"
+          },
+          "value": "Unity.Texture",
+          "position": {
+            "start": {
+              "line": 7,
+              "column": 12,
+              "offset": 732
+            },
+            "end": {
+              "line": 7,
+              "column": 29,
+              "offset": 749
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Unity.Texture"
+          }
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "Unity",
+      "data": {}
+    },
+    "Mesh": {
+      "id": "Mesh",
+      "title": "Mesh",
+      "desc": "",
+      "updated": 1646841962724,
+      "created": 1646841962724,
+      "custom": {},
+      "fname": "Unity.Mesh",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "0ded5b0385a1559b337779b5e33bbdf1",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Unity.Mesh",
+            "id": "Mesh",
+            "vaultName": "vault"
+          },
+          "value": "Unity.Material",
+          "position": {
+            "start": {
+              "line": 2,
+              "column": 12,
+              "offset": 12
+            },
+            "end": {
+              "line": 2,
+              "column": 30,
+              "offset": 30
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Unity.Material"
+          }
+        },
+        {
+          "from": {
+            "fname": "Unity.Material",
+            "id": "Material",
+            "vaultName": "vault"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 6,
+              "column": 28,
+              "offset": 228
+            },
+            "end": {
+              "line": 6,
+              "column": 42,
+              "offset": 242
+            },
+            "indent": []
+          },
+          "value": "Unity.Mesh"
+        },
+        {
+          "from": {
+            "fname": "Unity.Meshes, Materials, Shaders and Textures",
+            "id": "Meshes-Materials-Shaders-Textures",
+            "vaultName": "vault"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 4,
+              "column": 10,
+              "offset": 169
+            },
+            "end": {
+              "line": 4,
+              "column": 24,
+              "offset": 183
+            },
+            "indent": []
+          },
+          "value": "Unity.Mesh"
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "Unity",
+      "data": {}
+    },
+    "Material": {
+      "id": "Material",
+      "title": "Material",
+      "desc": "",
+      "updated": 1647447189349,
+      "created": 1644952773750,
+      "custom": {},
+      "fname": "Unity.Material",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "2aef38f71a32ec1a691c976fb01319f3",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Unity.Material",
+            "id": "Material",
+            "vaultName": "vault"
+          },
+          "value": "Unity.Renderer",
+          "position": {
+            "start": {
+              "line": 4,
+              "column": 33,
+              "offset": 181
+            },
+            "end": {
+              "line": 4,
+              "column": 51,
+              "offset": 199
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Unity.Renderer"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Unity.Material",
+            "id": "Material",
+            "vaultName": "vault"
+          },
+          "value": "Unity.Mesh",
+          "position": {
+            "start": {
+              "line": 6,
+              "column": 28,
+              "offset": 228
+            },
+            "end": {
+              "line": 6,
+              "column": 42,
+              "offset": 242
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Unity.Mesh"
+          }
+        },
+        {
+          "from": {
+            "fname": "Unity.Mesh",
+            "id": "Mesh",
+            "vaultName": "vault"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 2,
+              "column": 12,
+              "offset": 12
+            },
+            "end": {
+              "line": 2,
+              "column": 30,
+              "offset": 30
+            },
+            "indent": []
+          },
+          "value": "Unity.Material"
+        },
+        {
+          "from": {
+            "fname": "Unity.Meshes, Materials, Shaders and Textures",
+            "id": "Meshes-Materials-Shaders-Textures",
+            "vaultName": "vault"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 5,
+              "column": 13,
+              "offset": 274
+            },
+            "end": {
+              "line": 5,
+              "column": 31,
+              "offset": 292
+            },
+            "indent": []
+          },
+          "value": "Unity.Material"
+        },
+        {
+          "from": {
+            "fname": "Unity.Shader",
+            "id": "shader",
+            "vaultName": "vault"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 2,
+              "column": 23,
+              "offset": 23
+            },
+            "end": {
+              "line": 2,
+              "column": 41,
+              "offset": 41
+            },
+            "indent": []
+          },
+          "value": "Unity.Material"
+        },
+        {
+          "from": {
+            "fname": "Unity.Texture",
+            "id": "Texture",
+            "vaultName": "vault"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 5,
+              "column": 28,
+              "offset": 139
+            },
+            "end": {
+              "line": 5,
+              "column": 46,
+              "offset": 157
+            },
+            "indent": []
+          },
+          "value": "Unity.Material"
+        },
+        {
+          "from": {
+            "fname": "Unity.Unsorted Unity Notes",
+            "id": "Unsorted-Unity-Notes",
+            "vaultName": "vault"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 64,
+              "column": 1,
+              "offset": 1361
+            },
+            "end": {
+              "line": 64,
+              "column": 19,
+              "offset": 1379
+            },
+            "indent": []
+          },
+          "value": "Unity.Material"
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "Unity",
+      "data": {}
+    },
+    "Unity-mac-vs-windows": {
+      "id": "Unity-mac-vs-windows",
+      "title": "Unity on Mac vs Windows",
+      "desc": "",
+      "updated": 1644012823264,
+      "created": 1643924085445,
+      "custom": {},
+      "fname": "Unity.Mac vs Windows",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "3b86cb83172eb005e104007a04175910",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "Unity",
+      "data": {}
+    },
+    "Locomotion": {
+      "id": "Locomotion",
+      "title": "Locomotion",
+      "desc": "",
+      "updated": 1648150424049,
+      "created": 1648150424049,
+      "custom": {},
+      "fname": "Unity.Locomotion",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "3c97ea19b334fcf92d32620e85c8ae60",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "Unity",
+      "data": {}
+    },
+    "unity-inspector": {
+      "id": "unity-inspector",
+      "title": "Inspector",
+      "desc": "",
+      "updated": 1644345529793,
+      "created": 1644345518081,
+      "custom": {},
+      "fname": "Unity.Inspector",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "fd106f4a5bc43b97eef3254d6c04d619",
+      "links": [
+        {
+          "from": {
+            "fname": "Unity.Getting Started",
+            "id": "unity-getting-started",
+            "vaultName": "vault"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 6,
+              "column": 4,
+              "offset": 108
+            },
+            "end": {
+              "line": 6,
+              "column": 23,
+              "offset": 127
+            },
+            "indent": []
+          },
+          "value": "Unity.Inspector"
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "Unity",
+      "data": {}
+    },
+    "Hungarian-Notation": {
+      "id": "Hungarian-Notation",
+      "title": "Hungarian Notation",
+      "desc": "",
+      "updated": 1645556230678,
+      "created": 1645556230678,
+      "custom": {},
+      "fname": "Unity.Hungarian Notation",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "a28509eba6b9494afe11c27b94cb5d9b",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "Unity",
+      "data": {}
+    },
+    "unity-hierarchy-window": {
+      "id": "unity-hierarchy-window",
+      "title": "Hierarchy Window",
+      "desc": "",
+      "updated": 1644345624432,
+      "created": 1644345180059,
+      "custom": {},
+      "fname": "Unity.Hierarchy Window",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "fb3b6a08521da577f0c1dedae9c00fa9",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Unity.Hierarchy Window",
+            "id": "unity-hierarchy-window",
+            "vaultName": "vault"
+          },
+          "value": "Unity.Game Object",
+          "position": {
+            "start": {
+              "line": 4,
+              "column": 28,
+              "offset": 92
+            },
+            "end": {
+              "line": 4,
+              "column": 49,
+              "offset": 113
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Unity.Game Object"
+          }
+        },
+        {
+          "from": {
+            "fname": "Unity.Game Object",
+            "id": "unity-Game-Object",
+            "vaultName": "vault"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 8,
+              "column": 19,
+              "offset": 204
+            },
+            "end": {
+              "line": 8,
+              "column": 45,
+              "offset": 230
+            },
+            "indent": []
+          },
+          "value": "Unity.Hierarchy Window"
+        },
+        {
+          "from": {
+            "fname": "Unity.Game Object",
+            "id": "unity-Game-Object",
+            "vaultName": "vault"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 11,
+              "column": 82,
+              "offset": 378
+            },
+            "end": {
+              "line": 11,
+              "column": 108,
+              "offset": 404
+            },
+            "indent": []
+          },
+          "value": "Unity.Hierarchy Window"
+        },
+        {
+          "from": {
+            "fname": "Unity.Getting Started",
+            "id": "unity-getting-started",
+            "vaultName": "vault"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 5,
+              "column": 4,
+              "offset": 78
+            },
+            "end": {
+              "line": 5,
+              "column": 30,
+              "offset": 104
+            },
+            "indent": []
+          },
+          "value": "Unity.Hierarchy Window"
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "Unity",
+      "data": {}
+    },
+    "unity-getting-started": {
+      "id": "unity-getting-started",
+      "title": "Getting Started",
+      "desc": "",
+      "updated": 1644345457559,
+      "created": 1644342350389,
+      "custom": {},
+      "fname": "Unity.Getting Started",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "7812e32611858d63c0d664a18849ddfb",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Unity.Getting Started",
+            "id": "unity-getting-started",
+            "vaultName": "vault"
+          },
+          "value": "Unity.Scene View",
+          "position": {
+            "start": {
+              "line": 3,
+              "column": 4,
+              "offset": 36
+            },
+            "end": {
+              "line": 3,
+              "column": 24,
+              "offset": 56
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Unity.Scene View"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Unity.Getting Started",
+            "id": "unity-getting-started",
+            "vaultName": "vault"
+          },
+          "value": "Unity.Hierarchy Window",
+          "position": {
+            "start": {
+              "line": 5,
+              "column": 4,
+              "offset": 78
+            },
+            "end": {
+              "line": 5,
+              "column": 30,
+              "offset": 104
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Unity.Hierarchy Window"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Unity.Getting Started",
+            "id": "unity-getting-started",
+            "vaultName": "vault"
+          },
+          "value": "Unity.Inspector",
+          "position": {
+            "start": {
+              "line": 6,
+              "column": 4,
+              "offset": 108
+            },
+            "end": {
+              "line": 6,
+              "column": 23,
+              "offset": 127
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Unity.Inspector"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Unity.Getting Started",
+            "id": "unity-getting-started",
+            "vaultName": "vault"
+          },
+          "value": "Unity.Game View",
+          "position": {
+            "start": {
+              "line": 7,
+              "column": 4,
+              "offset": 131
+            },
+            "end": {
+              "line": 7,
+              "column": 23,
+              "offset": 150
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Unity.Game View"
+          }
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "Unity",
+      "data": {}
+    },
+    "unity-game-view": {
+      "id": "unity-game-view",
+      "title": "Game View",
+      "desc": "",
+      "updated": 1644345542663,
+      "created": 1644345542663,
+      "custom": {},
+      "fname": "Unity.Game View",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "d0ae0888fe8fdb5dd8c12794bc12ade5",
+      "links": [
+        {
+          "from": {
+            "fname": "Unity.Getting Started",
+            "id": "unity-getting-started",
+            "vaultName": "vault"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 7,
+              "column": 4,
+              "offset": 131
+            },
+            "end": {
+              "line": 7,
+              "column": 23,
+              "offset": 150
+            },
+            "indent": []
+          },
+          "value": "Unity.Game View"
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "Unity",
+      "data": {}
+    },
+    "unity-Game-Object": {
+      "id": "unity-Game-Object",
+      "title": "Game Object",
+      "desc": "",
+      "updated": 1644345323046,
+      "created": 1644344694532,
+      "custom": {},
+      "fname": "Unity.Game Object",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "97ea16e46dc2b6b0ce9c36d3d686e2b0",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Unity.Game Object",
+            "id": "unity-Game-Object",
+            "vaultName": "vault"
+          },
+          "value": "Unity.Scene",
+          "position": {
+            "start": {
+              "line": 2,
+              "column": 23,
+              "offset": 23
+            },
+            "end": {
+              "line": 2,
+              "column": 38,
+              "offset": 38
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Unity.Scene"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Unity.Game Object",
+            "id": "unity-Game-Object",
+            "vaultName": "vault"
+          },
+          "value": "Unity.Hierarchy Window",
+          "position": {
+            "start": {
+              "line": 8,
+              "column": 19,
+              "offset": 204
+            },
+            "end": {
+              "line": 8,
+              "column": 45,
+              "offset": 230
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Unity.Hierarchy Window"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Unity.Game Object",
+            "id": "unity-Game-Object",
+            "vaultName": "vault"
+          },
+          "value": "Unity.Scene View",
+          "position": {
+            "start": {
+              "line": 11,
+              "column": 27,
+              "offset": 323
+            },
+            "end": {
+              "line": 11,
+              "column": 47,
+              "offset": 343
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Unity.Scene View"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Unity.Game Object",
+            "id": "unity-Game-Object",
+            "vaultName": "vault"
+          },
+          "value": "Unity.Hierarchy Window",
+          "position": {
+            "start": {
+              "line": 11,
+              "column": 82,
+              "offset": 378
+            },
+            "end": {
+              "line": 11,
+              "column": 108,
+              "offset": 404
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Unity.Hierarchy Window"
+          }
+        },
+        {
+          "from": {
+            "fname": "Unity.Collision",
+            "id": "sz2un22hz9thizmzyhdx1fh",
+            "vaultName": "vault"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 2,
+              "column": 14,
+              "offset": 14
+            },
+            "end": {
+              "line": 2,
+              "column": 35,
+              "offset": 35
+            },
+            "indent": []
+          },
+          "value": "Unity.Game Object"
+        },
+        {
+          "from": {
+            "fname": "Unity.Hierarchy Window",
+            "id": "unity-hierarchy-window",
+            "vaultName": "vault"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 4,
+              "column": 28,
+              "offset": 92
+            },
+            "end": {
+              "line": 4,
+              "column": 49,
+              "offset": 113
+            },
+            "indent": []
+          },
+          "value": "Unity.Game Object"
+        },
+        {
+          "from": {
+            "fname": "Unity.Orbits",
+            "id": "orbit",
+            "vaultName": "vault"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 4,
+              "column": 35,
+              "offset": 55
+            },
+            "end": {
+              "line": 4,
+              "column": 56,
+              "offset": 76
+            },
+            "indent": []
+          },
+          "value": "Unity.Game Object"
+        },
+        {
+          "from": {
+            "fname": "Unity.Pink Objects",
+            "id": "pink-objects",
+            "vaultName": "vault"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 2,
+              "column": 8,
+              "offset": 8
+            },
+            "end": {
+              "line": 2,
+              "column": 29,
+              "offset": 29
+            },
+            "indent": []
+          },
+          "value": "Unity.Game Object"
+        },
+        {
+          "from": {
+            "fname": "Unity.Unsorted Unity Notes",
+            "id": "Unsorted-Unity-Notes",
+            "vaultName": "vault"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 94,
+              "column": 20,
+              "offset": 1996
+            },
+            "end": {
+              "line": 94,
+              "column": 41,
+              "offset": 2017
+            },
+            "indent": []
+          },
+          "value": "Unity.Game Object"
+        },
+        {
+          "from": {
+            "fname": "Unity.Physics.Rigidbody",
+            "id": "Rigidbody",
+            "vaultName": "vault"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 3,
+              "column": 15,
+              "offset": 59
+            },
+            "end": {
+              "line": 3,
+              "column": 36,
+              "offset": 80
+            },
+            "indent": []
+          },
+          "value": "Unity.Game Object"
+        },
+        {
+          "from": {
+            "fname": "Unity.Physics.Rigidbody",
+            "id": "Rigidbody",
+            "vaultName": "vault"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 9,
+              "column": 5,
+              "offset": 150
+            },
+            "end": {
+              "line": 9,
+              "column": 26,
+              "offset": 171
+            },
+            "indent": []
+          },
+          "value": "Unity.Game Object"
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "Unity",
+      "data": {}
+    },
+    "Early-Learnings": {
+      "id": "Early-Learnings",
+      "title": "Early Learnings",
+      "desc": "",
+      "updated": 1645589593206,
+      "created": 1645589593206,
+      "custom": {},
+      "fname": "Unity.Early Learnings",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "3aff617c198fb4dadc464a3214a3d186",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "Unity",
+      "data": {}
+    },
+    "sz2un22hz9thizmzyhdx1fh": {
+      "id": "sz2un22hz9thizmzyhdx1fh",
+      "title": "Collision",
+      "desc": "",
+      "updated": 1646163222881,
+      "created": 1646162986849,
+      "custom": {},
+      "fname": "Unity.Collision",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "542ea8327752277f50764667dbb6152d",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Unity.Collision",
+            "id": "sz2un22hz9thizmzyhdx1fh",
+            "vaultName": "vault"
+          },
+          "value": "Unity.Game Object",
+          "position": {
+            "start": {
+              "line": 2,
+              "column": 14,
+              "offset": 14
+            },
+            "end": {
+              "line": 2,
+              "column": 35,
+              "offset": 35
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Unity.Game Object"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Unity.Collision",
+            "id": "sz2un22hz9thizmzyhdx1fh",
+            "vaultName": "vault"
+          },
+          "value": "Unity.Physics.Rigidbody",
+          "position": {
+            "start": {
+              "line": 3,
+              "column": 31,
+              "offset": 105
+            },
+            "end": {
+              "line": 3,
+              "column": 58,
+              "offset": 132
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Unity.Physics.Rigidbody"
+          }
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "Unity",
+      "data": {}
+    },
+    "Unity-Collider": {
+      "id": "Unity-Collider",
+      "title": "Collider",
+      "desc": "",
+      "updated": 1644347225516,
+      "created": 1644347225516,
+      "custom": {},
+      "fname": "Unity.Collider",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "7a547aee9f875f3981772e9d574b7156",
+      "links": [
+        {
+          "from": {
+            "fname": "Unity.Physics.Rigidbody",
+            "id": "Rigidbody",
+            "vaultName": "vault"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 9,
+              "column": 44,
+              "offset": 189
+            },
+            "end": {
+              "line": 9,
+              "column": 62,
+              "offset": 207
+            },
+            "indent": []
+          },
+          "value": "Unity.Collider"
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "Unity",
+      "data": {}
+    },
+    "Camera-Offset": {
+      "id": "Camera-Offset",
+      "title": "Camera Offset",
+      "desc": "",
+      "updated": 1647534825684,
+      "created": 1647534825684,
+      "custom": {},
+      "fname": "Unity.Camera Offset",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "530793d36e51447410bd9b8253df2ea0",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "Unity",
+      "data": {}
+    },
+    "C-sharp-Scripts": {
+      "id": "C-sharp-Scripts",
+      "title": "C# Scripts",
+      "desc": "",
+      "updated": 1645555276968,
+      "created": 1645555276968,
+      "custom": {},
+      "fname": "Unity.C# Scripts",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "88d090e7cc2c99e53682c1c0cb562103",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "Unity",
+      "data": {}
+    },
+    "unity-Asset-Store": {
+      "id": "unity-Asset-Store",
+      "title": "Asset Store",
+      "desc": "",
+      "updated": 1644346008178,
+      "created": 1644345702426,
+      "custom": {},
+      "fname": "Unity.Asset Store",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "a88f6523c1f01b614a09821cd10d3dec",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Unity.Asset Store",
+            "id": "unity-Asset-Store",
+            "vaultName": "vault"
+          },
+          "value": "Unity.asset",
+          "position": {
+            "start": {
+              "line": 2,
+              "column": 95,
+              "offset": 95
+            },
+            "end": {
+              "line": 2,
+              "column": 110,
+              "offset": 110
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Unity.asset"
+          }
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "Unity",
+      "data": {}
+    },
+    "AR-Foundation": {
+      "id": "AR-Foundation",
+      "title": "AR Foundation",
+      "desc": "",
+      "updated": 1646332470274,
+      "created": 1646332419699,
+      "custom": {},
+      "fname": "Unity.AR Foundation",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "61c82783c3c287faefe635fee1cb5f3d",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "Unity",
+      "data": {}
+    },
+    "gcofin8n8tdzsqm21h8y3w6": {
+      "id": "gcofin8n8tdzsqm21h8y3w6",
+      "title": "AR Button as Child",
+      "desc": "",
+      "updated": 1647291410374,
+      "created": 1647291277987,
+      "custom": {},
+      "fname": "Unity.AR Button as Child",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "c259dba22c24d2b85ba03cd0e24dbe61",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "Unity",
+      "data": {}
+    },
+    "d5ih3t1042m0cvz9cu277no": {
+      "id": "d5ih3t1042m0cvz9cu277no",
+      "title": "1 on 1",
+      "desc": "",
+      "updated": 1648088059121,
+      "created": 1645721666259,
+      "custom": {},
+      "fname": "Unity.1 on 1",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "67b4a685ad37bbf942e49e73cf8abc31",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "Unity",
+      "data": {}
+    },
+    "TypeScript": {
+      "id": "TypeScript",
+      "title": "TypeScript",
+      "desc": "",
+      "updated": 1665427059263,
+      "created": 1662643727632,
+      "custom": {},
+      "fname": "TypeScript",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "b73cdbb0b53ce9a4ab4806f3500dc3bf",
+      "links": [],
+      "anchors": {
+        "these-are-my-notes-as-i-learn-typescript-and-thus-brush-up-on-modern-javascript": {
+          "type": "header",
+          "text": "These are my notes as I learn TypeScript, and thus brush up on modern JavaScript.",
+          "value": "these-are-my-notes-as-i-learn-typescript-and-thus-brush-up-on-modern-javascript",
+          "line": 8,
+          "column": 0,
+          "depth": 3
+        },
+        "boolean": {
+          "type": "header",
+          "text": "Boolean",
+          "value": "boolean",
+          "line": 26,
+          "column": 0,
+          "depth": 3
+        },
+        "type-inference": {
+          "type": "header",
+          "text": "Type Inference",
+          "value": "type-inference",
+          "line": 33,
+          "column": 0,
+          "depth": 3
+        },
+        "any-type": {
+          "type": "header",
+          "text": "\"Any\" type",
+          "value": "any-type",
+          "line": 40,
+          "column": 0,
+          "depth": 3
+        },
+        "inferring-vs-specifying-return-types": {
+          "type": "header",
+          "text": "Inferring vs Specifying Return Types",
+          "value": "inferring-vs-specifying-return-types",
+          "line": 65,
+          "column": 0,
+          "depth": 3
+        },
+        "specifying-void-return-types": {
+          "type": "header",
+          "text": "Specifying void return types",
+          "value": "specifying-void-return-types",
+          "line": 74,
+          "column": 0,
+          "depth": 3
+        },
+        "never": {
+          "type": "header",
+          "text": "Never",
+          "value": "never",
+          "line": 81,
+          "column": 0,
+          "depth": 3
+        },
+        "objects": {
+          "type": "header",
+          "text": "Objects",
+          "value": "objects",
+          "line": 88,
+          "column": 0,
+          "depth": 3
+        },
+        "type-alias": {
+          "type": "header",
+          "text": "Type Alias",
+          "value": "type-alias",
+          "line": 122,
+          "column": 0,
+          "depth": 3
+        },
+        "intersection-types": {
+          "type": "header",
+          "text": "Intersection Types",
+          "value": "intersection-types",
+          "line": 135,
+          "column": 0,
+          "depth": 2
+        },
+        "data-structures": {
+          "type": "header",
+          "text": "Data Structures",
+          "value": "data-structures",
+          "line": 155,
+          "column": 0,
+          "depth": 3
+        },
+        "array": {
+          "type": "header",
+          "text": "Array",
+          "value": "array",
+          "line": 157,
+          "column": 0,
+          "depth": 4
+        },
+        "union-types": {
+          "type": "header",
+          "text": "Union Types",
+          "value": "union-types",
+          "line": 167,
+          "column": 0,
+          "depth": 3
+        },
+        "literal-type": {
+          "type": "header",
+          "text": "Literal Type",
+          "value": "literal-type",
+          "line": 187,
+          "column": 0,
+          "depth": 3
+        },
+        "some-examples": {
+          "type": "header",
+          "text": "Some Examples",
+          "value": "some-examples",
+          "line": 191,
+          "column": 0,
+          "depth": 3
+        },
+        "tuples": {
+          "type": "header",
+          "text": "Tuples",
+          "value": "tuples",
+          "line": 226,
+          "column": 0,
+          "depth": 3
+        },
+        "enums": {
+          "type": "header",
+          "text": "Enums",
+          "value": "enums",
+          "line": 253,
+          "column": 0,
+          "depth": 3
+        },
+        "interfaces": {
+          "type": "header",
+          "text": "Interfaces",
+          "value": "interfaces",
+          "line": 265,
+          "column": 0,
+          "depth": 3
+        },
+        "aspects-related-to-building-projects-with-typescript": {
+          "type": "header",
+          "text": "Aspects Related to Building Projects with TypeScript",
+          "value": "aspects-related-to-building-projects-with-typescript",
+          "line": 285,
+          "column": 0,
+          "depth": 3
+        },
+        "as-always-a-todo-list": {
+          "type": "header",
+          "text": "as always, a TODO List",
+          "value": "as-always-a-todo-list",
+          "line": 287,
+          "column": 0,
+          "depth": 4
+        },
+        "loops": {
+          "type": "header",
+          "text": "Loops",
+          "value": "loops",
+          "line": 345,
+          "column": 0,
+          "depth": 2
+        },
+        "array-operations": {
+          "type": "header",
+          "text": "Array Operations",
+          "value": "array-operations",
+          "line": 363,
+          "column": 0,
+          "depth": 2
+        },
+        "slicing": {
+          "type": "header",
+          "text": "Slicing",
+          "value": "slicing",
+          "line": 365,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [],
+      "parent": "wn8PE1RhG0znK1alrGFYv",
+      "data": {}
+    },
+    "Python-References": {
+      "id": "Python-References",
+      "title": "Python References",
+      "desc": "",
+      "updated": 1646755161841,
+      "created": 1645026179150,
+      "custom": {},
+      "fname": "Python References",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "6e159f71189463ae132a0b2b68d0656b",
+      "links": [],
+      "anchors": {
+        "list-operations": {
+          "type": "header",
+          "text": "List operations",
+          "value": "list-operations",
+          "line": 49,
+          "column": 0,
+          "depth": 2
+        },
+        "python-in-vscode": {
+          "type": "header",
+          "text": "Python in VSCode",
+          "value": "python-in-vscode",
+          "line": 61,
+          "column": 0,
+          "depth": 3
+        },
+        "virtual-environments": {
+          "type": "header",
+          "text": "Virtual Environments",
+          "value": "virtual-environments",
+          "line": 76,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "wn8PE1RhG0znK1alrGFYv",
+      "data": {}
+    },
+    "Normalize-Data": {
+      "id": "Normalize-Data",
+      "title": "Normalize Data",
+      "desc": "",
+      "updated": 1662644481070,
+      "created": 1646074111202,
+      "custom": {},
+      "fname": "Normalize Data",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "89f4e5edd250e1c3f822cb41e5da6cac",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Normalize Data",
+            "id": "Normalize-Data",
+            "vaultName": "vault"
+          },
+          "value": "Unity.Orbits",
+          "position": {
+            "start": {
+              "line": 31,
+              "column": 63,
+              "offset": 1217
+            },
+            "end": {
+              "line": 31,
+              "column": 79,
+              "offset": 1233
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Unity.Orbits"
+          }
+        },
+        {
+          "from": {
+            "fname": "Unity.Orbits",
+            "id": "orbit",
+            "vaultName": "vault"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 2,
+              "column": 1,
+              "offset": 1
+            },
+            "end": {
+              "line": 2,
+              "column": 19,
+              "offset": 19
+            },
+            "indent": []
+          },
+          "value": "Normalize Data"
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "wn8PE1RhG0znK1alrGFYv",
+      "data": {}
+    },
+    "Money-&-Finances": {
+      "id": "Money-&-Finances",
+      "title": "Money & Finances",
+      "desc": "",
+      "updated": 1667771942263,
+      "created": 1645539547888,
+      "custom": {},
+      "fname": "Money & Finances",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "fcc89ec6ae73250a330b101ef3deeba8",
+      "links": [],
+      "anchors": {
+        "tldr": {
+          "type": "header",
+          "text": "TL;DR",
+          "value": "tldr",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "wn8PE1RhG0znK1alrGFYv",
+      "data": {}
+    },
+    "Microphone-Reviews": {
+      "id": "Microphone-Reviews",
+      "title": "Microphone Reviews",
+      "desc": "",
+      "updated": 1653507725412,
+      "created": 1653493338687,
+      "custom": {},
+      "fname": "Microphone Reviews",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "c44ae8c45d18bf5693bb441894a44f93",
+      "links": [],
+      "anchors": {
+        "rode-videomic-ntg-to-the-rode-wireless-go-ii": {
+          "type": "header",
+          "text": "RODE Videomic NTG to the RODE Wireless Go II",
+          "value": "rode-videomic-ntg-to-the-rode-wireless-go-ii",
+          "line": 17,
+          "column": 0,
+          "depth": 2
+        },
+        "rode-videomic-ntg": {
+          "type": "header",
+          "text": "RODE Videomic NTG",
+          "value": "rode-videomic-ntg",
+          "line": 26,
+          "column": 0,
+          "depth": 3
+        },
+        "rode-wireless-go-ii": {
+          "type": "header",
+          "text": "RODE Wireless Go II",
+          "value": "rode-wireless-go-ii",
+          "line": 30,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [],
+      "parent": "wn8PE1RhG0znK1alrGFYv",
+      "data": {}
+    },
+    "Machine-Learning": {
+      "id": "Machine-Learning",
+      "title": "Machine Learning",
+      "desc": "",
+      "updated": 1645544691499,
+      "created": 1645544685539,
+      "custom": {},
+      "fname": "Machine Learning",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "eb0d391156d044ebb1b10c50064a723e",
+      "links": [],
+      "anchors": {
+        "cosine-similarity": {
+          "type": "header",
+          "text": "Cosine Similarity",
+          "value": "cosine-similarity",
+          "line": 8,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [
+        "1hwvvhsfte72xg4b6ht3t9k"
+      ],
+      "parent": "wn8PE1RhG0znK1alrGFYv",
+      "data": {}
+    },
+    "1hwvvhsfte72xg4b6ht3t9k": {
+      "id": "1hwvvhsfte72xg4b6ht3t9k",
+      "title": "Random Forest",
+      "desc": "",
+      "updated": 1650980906812,
+      "created": 1650980902301,
+      "custom": {},
+      "fname": "Machine Learning.Random Forest",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "b3079713880bbd8b7e66759f14211790",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "Machine-Learning",
+      "data": {}
+    },
+    "Linear-Algebra": {
+      "id": "Linear-Algebra",
+      "title": "Linear Algebra",
+      "desc": "",
+      "updated": 1643988555106,
+      "created": 1643988555106,
+      "custom": {},
+      "fname": "Linear Algebra",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "47901fc732d61ff673f0efcf73afc357",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "matrix-manipulation"
+      ],
+      "parent": "wn8PE1RhG0znK1alrGFYv",
+      "data": {}
+    },
+    "matrix-manipulation": {
+      "id": "matrix-manipulation",
+      "title": "Matrix Manipulation",
+      "desc": "",
+      "updated": 1657571798596,
+      "created": 1643988598713,
+      "custom": {},
+      "fname": "Linear Algebra.matrix manipulation",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "862e0d938a4cf59034c746bc41b4d892",
+      "links": [],
+      "anchors": {
+        "the-importance-of-dot-products": {
+          "type": "header",
+          "text": "The Importance Of Dot Products",
+          "value": "the-importance-of-dot-products",
+          "line": 96,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [],
+      "parent": "Linear-Algebra",
+      "data": {}
+    },
+    "Giving-Up-A-Smartphone": {
+      "id": "Giving-Up-A-Smartphone",
+      "title": "Giving Up A Smartphone",
+      "desc": "",
+      "updated": 1673749542290,
+      "created": 1666384128163,
+      "custom": {},
+      "fname": "Giving Up My Smartphone",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "369af2394e8712b7284795fe21a20116",
+      "links": [],
+      "anchors": {
+        "butthe-problem": {
+          "type": "header",
+          "text": "But...The Problem",
+          "value": "butthe-problem",
+          "line": 25,
+          "column": 0,
+          "depth": 2
+        },
+        "the-plan": {
+          "type": "header",
+          "text": "The Plan",
+          "value": "the-plan",
+          "line": 32,
+          "column": 0,
+          "depth": 2
+        },
+        "jose-briones": {
+          "type": "header",
+          "text": "Jose Briones",
+          "value": "jose-briones",
+          "line": 35,
+          "column": 0,
+          "depth": 2
+        },
+        "light-phone": {
+          "type": "header",
+          "text": "Light Phone",
+          "value": "light-phone",
+          "line": 38,
+          "column": 0,
+          "depth": 2
+        },
+        "sunbeam-wireless": {
+          "type": "header",
+          "text": "Sunbeam Wireless",
+          "value": "sunbeam-wireless",
+          "line": 52,
+          "column": 0,
+          "depth": 2
+        },
+        "other": {
+          "type": "header",
+          "text": "Other",
+          "value": "other",
+          "line": 58,
+          "column": 0,
+          "depth": 2
+        },
+        "update-on-nov-6-2022": {
+          "type": "header",
+          "text": "Update on Nov 6, 2022",
+          "value": "update-on-nov-6-2022",
+          "line": 65,
+          "column": 0,
+          "depth": 3
+        },
+        "update-on-nov-27-2022": {
+          "type": "header",
+          "text": "Update on Nov 27, 2022",
+          "value": "update-on-nov-27-2022",
+          "line": 85,
+          "column": 0,
+          "depth": 3
+        },
+        "update-on-jan-1-2023": {
+          "type": "header",
+          "text": "Update on Jan 1, 2023",
+          "value": "update-on-jan-1-2023",
+          "line": 99,
+          "column": 0,
+          "depth": 2
+        },
+        "update-on-jan-14-2023": {
+          "type": "header",
+          "text": "Update on Jan 14, 2023",
+          "value": "update-on-jan-14-2023",
+          "line": 127,
+          "column": 0,
+          "depth": 2
+        },
+        "first-impressions-after-week-1": {
+          "type": "header",
+          "text": "First Impressions after week 1",
+          "value": "first-impressions-after-week-1",
+          "line": 138,
+          "column": 0,
+          "depth": 4
+        }
+      },
+      "children": [],
+      "parent": "wn8PE1RhG0znK1alrGFYv",
+      "data": {}
+    },
+    "git-commands-reference": {
+      "id": "git-commands-reference",
+      "title": "Git Commands Reference",
+      "desc": "",
+      "updated": 1664564899106,
+      "created": 1644416082365,
+      "custom": {},
+      "fname": "Git Commands Reference",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "a64a3e3523116f45fb8967571eccce9c",
+      "links": [],
+      "anchors": {
+        "git-diff": {
+          "type": "header",
+          "text": "Git Diff",
+          "value": "git-diff",
+          "line": 80,
+          "column": 0,
+          "depth": 3
+        },
+        "git-pull": {
+          "type": "header",
+          "text": "Git Pull",
+          "value": "git-pull",
+          "line": 99,
+          "column": 0,
+          "depth": 3
+        },
+        "switch-to-another-branch": {
+          "type": "header",
+          "text": "Switch to another branch",
+          "value": "switch-to-another-branch",
+          "line": 101,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [],
+      "parent": "wn8PE1RhG0znK1alrGFYv",
+      "data": {}
+    },
+    "Computer-Vision-References": {
+      "id": "Computer-Vision-References",
+      "title": "Computer Vision References",
+      "desc": "",
+      "updated": 1645714167646,
+      "created": 1645714145003,
+      "custom": {},
+      "fname": "Computer Vision References",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "c7c55750af28ae7a97e1fef897f81626",
+      "links": [],
+      "anchors": {
+        "open-cv": {
+          "type": "header",
+          "text": "Open CV",
+          "value": "open-cv",
+          "line": 8,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [],
+      "parent": "wn8PE1RhG0znK1alrGFYv",
+      "data": {}
+    },
+    "Books": {
+      "id": "Books",
+      "title": "Books",
+      "desc": "",
+      "updated": 1662644400579,
+      "created": 1656980745681,
+      "custom": {},
+      "fname": "Books",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "18a98a20371360685dde6fb0d178fb55",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "3D-User-Interfaces",
+        "Ancillary-Justice",
+        "Born-to-Run",
+        "Breathe-by-Rickson-Gracie",
+        "The-Body-A-Guide-for-Occupants",
+        "The-Lost-City-of-Z"
+      ],
+      "parent": "wn8PE1RhG0znK1alrGFYv",
+      "data": {}
+    },
+    "The-Lost-City-of-Z": {
+      "id": "The-Lost-City-of-Z",
+      "title": "The Lost City of Z",
+      "desc": "",
+      "updated": 1660405127727,
+      "created": 1660404441826,
+      "custom": {},
+      "fname": "Books.The Lost City of Z",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "24d901cb41714b4d29dfa46d94ff66d9",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "Books",
+      "data": {}
+    },
+    "The-Body-A-Guide-for-Occupants": {
+      "id": "The-Body-A-Guide-for-Occupants",
+      "title": "The Body: A Guide for Occupants",
+      "desc": "",
+      "updated": 1660406813768,
+      "created": 1660406541967,
+      "custom": {},
+      "fname": "Books.The Body: A Guide for Occupants",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "115a800a603af478b678a16a24c63c96",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "Books",
+      "data": {}
+    },
+    "Breathe-by-Rickson-Gracie": {
+      "id": "Breathe-by-Rickson-Gracie",
+      "title": "Breathe by Rickson Gracie",
+      "desc": "",
+      "updated": 1660404945374,
+      "created": 1656980745678,
+      "custom": {},
+      "fname": "Books.Breathe by Rickson Gracie",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "65f294a4e6424cfd945f905ff2eb36c2",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "Books",
+      "data": {}
+    },
+    "Born-to-Run": {
+      "id": "Born-to-Run",
+      "title": "Born to Run",
+      "desc": "",
+      "updated": 1662644392290,
+      "created": 1660405095230,
+      "custom": {},
+      "fname": "Books.Born to Run",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "0ed86c3331f35d647e9e9af2dcd3e92b",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "Books",
+      "data": {}
+    },
+    "Ancillary-Justice": {
+      "id": "Ancillary-Justice",
+      "title": "Ancillary Justice",
+      "desc": "",
+      "updated": 1662644384529,
+      "created": 1660406202640,
+      "custom": {},
+      "fname": "Books.Ancillary Justice",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "a5e00e36b4b1d610a238ca6de4dc3c68",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "Books",
+      "data": {}
+    },
+    "3D-User-Interfaces": {
+      "id": "3D-User-Interfaces",
+      "title": "3D User Interfaces",
+      "desc": "",
+      "updated": 1644290133579,
+      "created": 1643729067561,
+      "custom": {},
+      "fname": "Books.3D User Interfaces",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "b8251a7e3ebcffa2839a9ddc5512a319",
+      "links": [],
+      "anchors": {
+        "somatosensory": {
+          "type": "header",
+          "text": "somatosensory",
+          "value": "somatosensory",
+          "line": 146,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "Books",
+      "data": {}
+    },
+    "Augmented-Reality-Project": {
+      "id": "Augmented-Reality-Project",
+      "title": "Augmented Reality Projects",
+      "desc": "",
+      "updated": 1662644545929,
+      "created": 1658836065110,
+      "custom": {},
+      "fname": "Augmented Reality Projects",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "050aff5a12c8188d1f1c0cda49749f6e",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "Augmented-Labels",
+        "field-drops"
+      ],
+      "parent": "wn8PE1RhG0znK1alrGFYv",
+      "data": {}
+    },
+    "field-drops": {
+      "id": "field-drops",
+      "title": "Field Drops",
+      "desc": "",
+      "updated": 1656980963918,
+      "created": 1656980900444,
+      "custom": {},
+      "fname": "Augmented Reality Projects.Field Drops",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "708854d09c61f1c547ad1ec04a83ac7d",
+      "links": [],
+      "anchors": {
+        "ios-augmented-reality-app-experimenting-with-realitykit-for-sound-player-interaction": {
+          "type": "header",
+          "text": "iOS Augmented Reality app experimenting with RealityKit for sound player interaction",
+          "value": "ios-augmented-reality-app-experimenting-with-realitykit-for-sound-player-interaction",
+          "line": 10,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [],
+      "parent": "Augmented-Reality-Project",
+      "data": {}
+    },
+    "Augmented-Labels": {
+      "id": "Augmented-Labels",
+      "title": "Augmented Labels",
+      "desc": "",
+      "updated": 1668174565020,
+      "created": 1668174539832,
+      "custom": {},
+      "fname": "Augmented Reality Projects.Augmented Labels",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "b47ee3bc93fbfa0dc7d6063e959475e7",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "Augmented-Reality-Project",
+      "data": {}
+    },
+    "Apple-Augmented-Reality-Notes": {
+      "id": "Apple-Augmented-Reality-Notes",
+      "title": "Apple Augmented Reality Notes",
+      "desc": "",
+      "updated": 1666791409847,
+      "created": 1666790894246,
+      "custom": {},
+      "fname": "Apple Augmented Reality Notes",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "3f0f30f0d63083b0591cebbf500af52f",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "AR-Anchor",
+        "ARView",
+        "Anchor-Entity",
+        "Session"
+      ],
+      "parent": "wn8PE1RhG0znK1alrGFYv",
+      "data": {}
+    },
+    "Session": {
+      "id": "Session",
+      "title": "Session",
+      "desc": "",
+      "updated": 1666791773019,
+      "created": 1666791764268,
+      "custom": {},
+      "fname": "Apple Augmented Reality Notes.Session",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "75ca662df61f1548d51f7d9cb90a38ae",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "Apple-Augmented-Reality-Notes",
+      "data": {}
+    },
+    "Anchor-Entity": {
+      "id": "Anchor-Entity",
+      "title": "Anchor Entity",
+      "desc": "",
+      "updated": 1667328175633,
+      "created": 1667328168661,
+      "custom": {},
+      "fname": "Apple Augmented Reality Notes.Anchor Entity",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "356e03fefc9bc556e598d118bc5fa399",
+      "links": [
+        {
+          "from": {
+            "fname": "Apple Augmented Reality Notes.AR Anchor",
+            "id": "AR-Anchor",
+            "vaultName": "vault"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 8,
+              "column": 79,
+              "offset": 397
+            },
+            "end": {
+              "line": 8,
+              "column": 126,
+              "offset": 444
+            },
+            "indent": []
+          },
+          "value": "Apple Augmented Reality Notes.Anchor Entity"
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "Apple-Augmented-Reality-Notes",
+      "data": {}
+    },
+    "ARView": {
+      "id": "ARView",
+      "title": "ARView",
+      "desc": "",
+      "updated": 1666791440586,
+      "created": 1666791409788,
+      "custom": {},
+      "fname": "Apple Augmented Reality Notes.ARView",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "650bcca379ea7a8583afc30df519034a",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "Apple-Augmented-Reality-Notes",
+      "data": {}
+    },
+    "AR-Anchor": {
+      "id": "AR-Anchor",
+      "title": "AR Anchor",
+      "desc": "",
+      "updated": 1667328261798,
+      "created": 1666791099468,
+      "custom": {},
+      "fname": "Apple Augmented Reality Notes.AR Anchor",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "6c01fb0f0e46ef05f7632bfb17f91ee8",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Apple Augmented Reality Notes.AR Anchor",
+            "id": "AR-Anchor",
+            "vaultName": "vault"
+          },
+          "value": "Apple Augmented Reality Notes.Anchor Entity",
+          "position": {
+            "start": {
+              "line": 8,
+              "column": 79,
+              "offset": 397
+            },
+            "end": {
+              "line": 8,
+              "column": 126,
+              "offset": 444
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Apple Augmented Reality Notes.Anchor Entity"
+          }
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "Apple-Augmented-Reality-Notes",
+      "data": {}
+    },
+    "Advice-for-Artists": {
+      "id": "Advice-for-Artists",
+      "title": "Advice for Artists",
+      "desc": "",
+      "updated": 1667178445593,
+      "created": 1667177309841,
+      "custom": {},
+      "fname": "Advice for Artists",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "75e9ae521dbccc4951c936b9e498ed61",
+      "links": [],
+      "anchors": {
+        "here-are-some-collected-quotes-thoughts-and-advice-from-artists-whose-work-i-respect": {
+          "type": "header",
+          "text": "Here are some collected quotes, thoughts, and advice from artists whose work I respect.",
+          "value": "here-are-some-collected-quotes-thoughts-and-advice-from-artists-whose-work-i-respect",
+          "line": 8,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [],
+      "parent": "wn8PE1RhG0znK1alrGFYv",
+      "data": {}
+    }
+  },
+  "domains": [
+    {
+      "id": "wn8PE1RhG0znK1alrGFYv",
+      "title": "Home",
+      "desc": "Personal Website of Bill Moriarty",
+      "updated": 1673749560079,
+      "created": 1631901573363,
+      "custom": {
+        "nav_order": 0,
+        "permalink": "/"
+      },
+      "fname": "root",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "ffde8fd27559f8d19705063ad3e5f2c0",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "Advice-for-Artists",
+        "Apple-Augmented-Reality-Notes",
+        "Augmented-Reality-Project",
+        "Books",
+        "Computer-Vision-References",
+        "git-commands-reference",
+        "Giving-Up-A-Smartphone",
+        "Linear-Algebra",
+        "Machine-Learning",
+        "Microphone-Reviews",
+        "Money-&-Finances",
+        "Normalize-Data",
+        "Python-References",
+        "TypeScript",
+        "Unity",
+        "fakolx1uvji6122gd5tci4c",
+        "Recordings"
+      ],
+      "parent": null,
+      "data": {},
+      "body": "Hello. I work as software developer & research associate focusing on augmented reality and virtual reality in the [GT Applied Research team](https://www.jpmorgan.com/technology/applied-research).\n\nTrying out  <a rel=\"me\" href=\"https://mastodon.social/@billmoriarty\">Mastodon</a>\n\nI studied computer science and software design at Temple University.\n\nI have made a lot of recordings as a record producer, recording engineer, mixing engineer, and sometimes a musician. You may have even heard some of them.\n\nOld podcast interviewing people changing careers into tech:\nhttps://anchor.fm/possible-paths\n\nMy partner is an artist & UX designer.\n\nWe are the parents of one kid.\n\nI spend a lot of time volunteering with The Wisdom Seat: a group of Buddhist teachers and practitioners who host spiritual teachers, sponsor meditation retreats and offer support to people on the Buddhist path.\n\nThe Wisdom Seat\nhttps://thewisdomseat.org\n\nPodcast for The Wisdom Seat\nhttps://anchor.fm/the-wisdom-seat\n\nRecording was my first love. At age 13 I got a guitar and a 4 track recorder. I have been making recordings as long as I’ve been around music.\n\nHear my own music here ///️\nhttps://open.spotify.com/artist/1eIs7Nuo5VeloBHoYr9fAB?si=H2TkGmQxSniZV_Wsii3Bag\nhttps://billmoriarty.bandcamp.com\n\nI will keep playing with recording until I’m dead 💀💀💀\n\nI have written some articles for one of my favorite magazines: [TapeOp️]([https://tapeop.com/searches/194699/](https://tapeop.com/searches/194699/)) \nhttps://tapeop.com/searches/194699/\n\n\n\n<iframe src=\"https://relentless-architect-4898.ck.page/5ddeb58ffe\" style=\"width:100%; height:500px; border:none; \"></iframe>\n\n![Studio](/assets/images/thespot.jpg)\n"
+    }
+  ],
+  "noteIndex": {
+    "id": "wn8PE1RhG0znK1alrGFYv",
+    "title": "Home",
+    "desc": "Personal Website of Bill Moriarty",
+    "updated": 1673749560079,
+    "created": 1631901573363,
+    "custom": {
+      "nav_order": 0,
+      "permalink": "/"
+    },
+    "fname": "root",
+    "type": "note",
+    "vault": {
+      "fsPath": "vault"
+    },
+    "contentHash": "ffde8fd27559f8d19705063ad3e5f2c0",
+    "links": [],
+    "anchors": {},
+    "children": [
+      "Advice-for-Artists",
+      "Apple-Augmented-Reality-Notes",
+      "Augmented-Reality-Project",
+      "Books",
+      "Computer-Vision-References",
+      "git-commands-reference",
+      "Giving-Up-A-Smartphone",
+      "Linear-Algebra",
+      "Machine-Learning",
+      "Microphone-Reviews",
+      "Money-&-Finances",
+      "Normalize-Data",
+      "Python-References",
+      "TypeScript",
+      "Unity",
+      "fakolx1uvji6122gd5tci4c",
+      "Recordings"
+    ],
+    "parent": null,
+    "data": {},
+    "body": "Hello. I work as software developer & research associate focusing on augmented reality and virtual reality in the [GT Applied Research team](https://www.jpmorgan.com/technology/applied-research).\n\nTrying out  <a rel=\"me\" href=\"https://mastodon.social/@billmoriarty\">Mastodon</a>\n\nI studied computer science and software design at Temple University.\n\nI have made a lot of recordings as a record producer, recording engineer, mixing engineer, and sometimes a musician. You may have even heard some of them.\n\nOld podcast interviewing people changing careers into tech:\nhttps://anchor.fm/possible-paths\n\nMy partner is an artist & UX designer.\n\nWe are the parents of one kid.\n\nI spend a lot of time volunteering with The Wisdom Seat: a group of Buddhist teachers and practitioners who host spiritual teachers, sponsor meditation retreats and offer support to people on the Buddhist path.\n\nThe Wisdom Seat\nhttps://thewisdomseat.org\n\nPodcast for The Wisdom Seat\nhttps://anchor.fm/the-wisdom-seat\n\nRecording was my first love. At age 13 I got a guitar and a 4 track recorder. I have been making recordings as long as I’ve been around music.\n\nHear my own music here ///️\nhttps://open.spotify.com/artist/1eIs7Nuo5VeloBHoYr9fAB?si=H2TkGmQxSniZV_Wsii3Bag\nhttps://billmoriarty.bandcamp.com\n\nI will keep playing with recording until I’m dead 💀💀💀\n\nI have written some articles for one of my favorite magazines: [TapeOp️]([https://tapeop.com/searches/194699/](https://tapeop.com/searches/194699/)) \nhttps://tapeop.com/searches/194699/\n\n\n\n<iframe src=\"https://relentless-architect-4898.ck.page/5ddeb58ffe\" style=\"width:100%; height:500px; border:none; \"></iframe>\n\n![Studio](/assets/images/thespot.jpg)\n"
+  },
+  "vaults": [
+    {
+      "fsPath": "vault"
+    }
+  ]
+}

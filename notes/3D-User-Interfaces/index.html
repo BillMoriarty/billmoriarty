@@ -1,0 +1,197 @@
+<!DOCTYPE html><html><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width"/><link rel="icon" href="/favicon.ico"/><title>3D User Interfaces</title><meta name="robots" content="index,follow"/><meta name="googlebot" content="index,follow"/><meta name="description" content="Personal knowledge space"/><meta property="og:title" content="3D User Interfaces"/><meta property="og:description" content="Personal knowledge space"/><meta property="og:url" content="https://billmoriarty.com/notes/3D-User-Interfaces/"/><meta property="og:type" content="article"/><meta property="article:published_time" content="2/1/2022"/><meta property="article:modified_time" content="2/8/2022"/><link rel="canonical" href="https://billmoriarty.com/notes/3D-User-Interfaces/"/><meta name="next-head-count" content="14"/><link rel="preload" href="/_next/static/css/8e7b7e4bce421c0a.css" as="style"/><link rel="stylesheet" href="/_next/static/css/8e7b7e4bce421c0a.css" data-n-g=""/><noscript data-n-css=""></noscript><script defer="" nomodule="" src="/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js"></script><script src="/_next/static/chunks/webpack-3d209faeb64f2f97.js" defer=""></script><script src="/_next/static/chunks/framework-28c999baf2863c3d.js" defer=""></script><script src="/_next/static/chunks/main-104451f3d1a5c4bc.js" defer=""></script><script src="/_next/static/chunks/pages/_app-6b338472289fe290.js" defer=""></script><script src="/_next/static/chunks/935-4dee79e80b8641c6.js" defer=""></script><script src="/_next/static/chunks/6-50972def09142ee2.js" defer=""></script><script src="/_next/static/chunks/pages/notes/%5Bid%5D-78d472fa3b924116.js" defer=""></script><script src="/_next/static/oV1AIkUsFrvV00codF4vq/_buildManifest.js" defer=""></script><script src="/_next/static/oV1AIkUsFrvV00codF4vq/_ssgManifest.js" defer=""></script></head><body><div id="__next" data-reactroot=""><section class="ant-layout" style="width:100%;min-height:100%"><header class="ant-layout-header" style="position:fixed;isolation:isolate;z-index:1;width:100%;border-bottom:1px solid #d4dadf;height:64px;padding:0 24px 0 2px"><div class="ant-row ant-row-center" style="max-width:992px;justify-content:space-between;margin:0 auto"><div style="display:flex" class="ant-col ant-col-xs-20 ant-col-sm-4"></div><div class="ant-col gutter-row ant-col-xs-0 ant-col-sm-20 ant-col-md-20 ant-col-lg-19"><div class="ant-select ant-select-lg ant-select-auto-complete ant-select-single ant-select-allow-clear ant-select-show-search" style="width:100%"><div class="ant-select-selector"><span class="ant-select-selection-search"><input type="search" autoComplete="off" class="ant-select-selection-search-input" role="combobox" aria-haspopup="listbox" aria-owns="undefined_list" aria-autocomplete="list" aria-controls="undefined_list" aria-activedescendant="undefined_list_0" value=""/></span><span class="ant-select-selection-placeholder">For full text search please use the &#x27;?&#x27; prefix. e.g. ? Onboarding</span></div></div></div><div style="display:none;align-items:center;justify-content:center" class="ant-col ant-col-xs-4 ant-col-sm-4 ant-col-md-0 ant-col-lg-0"><span role="img" aria-label="menu" style="font-size:24px" tabindex="-1" class="anticon anticon-menu"><svg viewBox="64 64 896 896" focusable="false" data-icon="menu" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M904 160H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8zm0 624H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8zm0-312H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8z"></path></svg></span></div></div></header><section class="ant-layout" style="margin-top:64px;display:flex;flex-direction:row"><div class="site-layout-sidebar" style="flex:0 0 auto;width:calc(max((100% - 992px) / 2, 0px) + 200px);min-width:200px;padding-left:calc((100% - 992px) / 2)"><aside class="ant-layout-sider ant-layout-sider-dark" style="position:fixed;overflow:auto;height:calc(100vh - 64px);background-color:transparent;flex:0 0 200px;max-width:200px;min-width:200px;width:200px"><div class="ant-layout-sider-children"></div></aside></div><main class="ant-layout-content side-layout-main" style="max-width:1200px;min-width:0;display:block"><div style="padding:0 24px"><div class="main-content" role="main"><div class="ant-row"><div class="ant-col ant-col-24"><div class="ant-row" style="margin-left:-10px;margin-right:-10px"><div style="padding-left:10px;padding-right:10px" class="ant-col ant-col-xs-24 ant-col-md-18"><div><h1 id="3d-user-interfaces">3D User Interfaces<a aria-hidden="true" class="anchor-heading icon-link" href="#3d-user-interfaces"></a></h1>
+<p>This <a href="https://www.eecs.ucf.edu/~jjl/">book</a> was recommended to me by Blair MacIntyre. </p>
+<p>These notes are from the 2nd edition, published in 2017.</p>
+<p>Chapter 1.1</p>
+<blockquote>
+<p>"A VR application may allow a user to place an object anywhere in 3D space, with any orientation-a task for which a 2D mouse is inadequate."</p>
+</blockquote>
+<p>Right away this reminds me of the <a href="https://www.amazon.com/Brave-NUI-World-Designing-Interfaces/dp/0123822319">Brave NUI World</a> book. </p>
+<p>Chapter 1.2</p>
+<blockquote>
+<p>"...development of 3D UIs is one of the most exciting areas of research in human-computer interaction (HCI) today.</p>
+</blockquote>
+<p>...when is "today" in this book? 2017?
+My today is Feb 1, 2022 at 10:31:43 AM</p>
+<p>Chapter 1.3: Terminology</p>
+<blockquote>
+<p>Degrees of freedom: The number of independent dimensions of the motion of a body. </p>
+</blockquote>
+<p>At the end of this chapter the authors arrive at this definition:</p>
+<blockquote>
+<p>3D interaction: ...if a user tours a model of a building on her desktop computer by choosing viewpoints from a traditional menu, no 3D interaction has taken place. On the other hand, 3D interaction does not necessarily mean that 3D input devices are used...</p>
+</blockquote>
+<p>Good distinction between the input device and the type of interaction. I could use a 3D-capable input device to interact with a 2D environment, or a 2D input device to interact with a 3D environment.</p>
+<p>Chapter 2.1: History of 3D UIs</p>
+<blockquote>
+<p>...unforseen usability issues</p>
+</blockquote>
+<p>Todo: read Sutherland(1968)</p>
+<p>One of the first popular magazine covers about Virtual Reality wasn't about a VR headset, but instead showed the "DataGlove" which was a hand worn glove meant to manipulate a virtual environment.</p>
+<p>Many difficult details to work out in these devices:</p>
+<ul>
+<li>how to know when a user is pointing to something in a VR environment?</li>
+<li>how to handle the user putting a device down to use another input device?
+...side note: my Oculus Quest handles both of those quite well</li>
+</ul>
+<blockquote>
+<p>designers of 3D UIs...still are faced with technological limitations, such as input latency, limited 3D workspace, tracing dropouts and cumbersome devices that must be worn, held, or attached.</p>
+</blockquote>
+<blockquote>
+<p>Thus, the new subarea of HCI is termed 3D interaction, 3D user interface design, or 3D HCI</p>
+</blockquote>
+<ul>
+<li>IEEE Symposium on 3D User Interfaces</li>
+<li>ACM Symposium on Spatial User Interaction</li>
+</ul>
+<p>Chapter 2.2: Roadmap to 3D UIs</p>
+<blockquote>
+<p>The defining feature of 3D UIs is that users are viewing and acting in a real and/or virtual 3D space.</p>
+</blockquote>
+<p>Interaction Techniques for Composite and Application-Specific Tasks</p>
+<blockquote>
+<p>...complex tasks in 3D UI are often <strong>composed</strong> of the universal tasks...
+(emphasis mine)</p>
+</blockquote>
+<blockquote>
+<p>...the task of cloning objects in space could ne see as a <strong>composite</strong> task involving selection, system control, and manipulation, but there are benefits to considering this task independently an designing specific interaction techniques for it(Chen and Bowman 2009).
+(emphasis mine)</p>
+</blockquote>
+<blockquote>
+<p>...it is not trivial to put these elements together in a usable and understandable way</p>
+</blockquote>
+<p><strong>Three Important Terms</strong></p>
+<ul>
+<li>presence
+<blockquote>
+<p>the feeling of "being there" tha you get when imersed in a virtual 3D world (Slater et al. 1994)</p>
+</blockquote>
+</li>
+<li>cybersickness 
+<blockquote>
+<p>feelings of physical discomfort brought on by the use of immersive systems (Kennedy et al. 2000)</p>
+</blockquote>
+</li>
+<li>interaction fidelity
+<blockquote>
+<p>the level of realism in the UI (McMahan et al. 2012)</p>
+</blockquote>
+</li>
+</ul>
+<p>2.2.3: Areas Impacted by 3D UIs
+Medicine and Psychiatry</p>
+<blockquote>
+<p>For example, someone with a fear of snakes might be able to pick up and handle a virtual snake with a combination of 3D input devices and a realistic toy snake</p>
+</blockquote>
+<p>... this reminds me of Dzongsar Khentsye Rinpoche's story of the snake, and how a Buddhist teacher might try to work with a student with such a fear.
+todo: insert that clip here</p>
+<p>On HCI
+I'm going to quote this short paragraph in full:</p>
+<blockquote>
+<p>The study of HCI has revealed many areas not addressed by traditional HCI. For example, what metrics should be used to study the user experience of a system? In typical UIs, metrics such as speed, accuracy, satisfaction, and perceived ease of use may be sufficient; in 3D UIs, we also need to asses things like physical comfort and presence. The development of heuristics or guidelines for good UI design is another area that has been studied thoroughly in traditional HCI but that requires further thought and expansion for 3D UIs. </p>
+</blockquote>
+<p>Chapter 3</p>
+<blockquote>
+<p>"human factors" refers to the capabilities, characteristics, and limitations the human user...</p>
+</blockquote>
+<blockquote>
+<p>...we focus on three interconnected human factors categories perceptual, cognitive, and physical ergonomics issues </p>
+</blockquote>
+<blockquote>
+<p>While attention is still not fully understood, evidence indicates it has three components: orienting to sensory events, detecting signals doe focused processing, maintaining a vigilant or alert state.</p>
+</blockquote>
+<blockquote>
+<p>For example, consider a busy train station - a friend may be waving and, once you focus you attention on her, you may notice she is also calling your name. </p>
+</blockquote>
+<blockquote>
+<p>...decision-making processes are in the center of information processing and depend on capturing, organizing, and combining information from various sources</p>
+</blockquote>
+<blockquote>
+<p>Skills can be a major focus of a 3DUI...skill transfer is an important factor in many VR training applications, with the expectation that skills learned in a VE can also be applied in the real world</p>
+</blockquote>
+<p><em>index of performance</em></p>
+<ul>
+<li>IP = (ID / MT)</li>
+<li>
+<ul>
+<li><em>index of difficulty</em> / <em>movement time</em></li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p><em>index of performance</em>is expressed in bits per second and has been used to define the performance of many input devices. </p>
+<ul>
+<li>
+<ul>
+<li>the hand itself = 10.6 bits/s</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>a mouse = 10.4 bits/s</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>a joystick = 5.0 bits/s</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>a touchpad = 1.6  bits/s</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>
+<ul>
+<li>well...I am much faster with this mac's trackpad than any mouse </li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</blockquote>
+<p><em>steering law</em>
+...predictive model that describes the time to steer through a tunnel</p>
+<p>[ ]install latex and put in the formula</p>
+<p><strong>occlusion</strong></p>
+<blockquote>
+<p>also called contour interruption or interposition
+the phenomenon in which an object closer to the user partially obstructs the view of an object farther away</p>
+</blockquote>
+<p><strong>linear perspective</strong></p>
+<blockquote>
+<p>the phenomenon what makes parallel lines appear to converge as they move away from the viewer</p>
+</blockquote>
+<p>...incidentally, this kind of phenomenon is what flat earthers use to 'prove' that the earth is flat. They say this is why you can't see objects which are actually beyond the horizon. They say no, they are just too far away to see, but that if you had a powerful enough telescope and nothing was in the way, you could Africa from NYC. See Eddie Bravo ranting on Rogan's show. Sigh. 🙄</p>
+<p><strong>aerial perspective</strong></p>
+<blockquote>
+<p>also called atmospheric attenuation
+is a cue that gauges relative distance by measuring the scattering and absorption of light through the atmosphere. For example, a nearer object will have more color saturation and brightness, while a more distant object will be duller and dimmer. </p>
+</blockquote>
+<p><strong>motion parallax</strong></p>
+<blockquote>
+<p>depth information is conveyed when objects are <em>moving</em> relative to the viewer</p>
+</blockquote>
+<p>audio - binaural cues</p>
+<blockquote>
+<p>The fundamental problem with binaural cues id that there are locations relative to the listener's head where ambiguous situations occur...one of the ways...can deal with ambiguous binaural cues is with dynamic movement of the...head or the sound source itself.</p>
+</blockquote>
+<p>Reverberation, of course, is a useful way to locate a sound source.</p>
+<p><strong>vestibular</strong></p>
+<blockquote>
+<p>The vestibular system is closely tied to the ear and auditory nerves...the vestibular sense can be best understood as the human balance system. </p>
+</blockquote>
+<blockquote>
+<p>...the vestibular system affects the control of the eyes, neck, and trunk/limbs</p>
+</blockquote>
+<blockquote>
+<p>It is believed <em>cybersickness</em> is caused by a mismatch between visual and vestibular cues.</p>
+</blockquote>
+<h2 id="somatosensory">somatosensory<a aria-hidden="true" class="anchor-heading icon-link" href="#somatosensory"></a></h2>
+<p>3.3.3</p>
+<p>This is also called the haptic system.</p>
+<blockquote>
+<p>The somatosensory, or haptic, system is an important perceptual system dealing with what we feel when touching or grasping objects and how we perceive the location and movement of the parts of our bodies. </p>
+</blockquote>
+<p>[ ]pickup here</p></div></div><div style="padding-left:10px;padding-right:10px" class="ant-col ant-col-xs-0 ant-col-md-6"><div><div class=""><div class="ant-anchor-wrapper dendron-toc" style="max-height:calc(100vh - 64px);z-index:1"><div class="ant-anchor"><div class="ant-anchor-ink"><span class="ant-anchor-ink-ball"></span></div><div class="ant-anchor-link"><a class="ant-anchor-link-title" href="#somatosensory" title="somatosensory">somatosensory</a></div></div></div></div></div></div></div></div></div></div></div><div class="ant-divider ant-divider-horizontal" role="separator"></div><footer class="ant-layout-footer" style="padding:0 24px 24px"></footer></main></section></section></div><script id="__NEXT_DATA__" type="application/json">{"props":{"pageProps":{"note":{"id":"3D-User-Interfaces","title":"3D User Interfaces","desc":"","updated":1644290133579,"created":1643729067561,"custom":{},"fname":"Books.3D User Interfaces","type":"note","vault":{"fsPath":"vault"},"contentHash":"b8251a7e3ebcffa2839a9ddc5512a319","links":[],"anchors":{"somatosensory":{"type":"header","text":"somatosensory","value":"somatosensory","line":146,"column":0,"depth":2}},"children":[],"parent":"Books","data":{}},"body":"\u003ch1 id=\"3d-user-interfaces\"\u003e3D User Interfaces\u003ca aria-hidden=\"true\" class=\"anchor-heading icon-link\" href=\"#3d-user-interfaces\"\u003e\u003c/a\u003e\u003c/h1\u003e\n\u003cp\u003eThis \u003ca href=\"https://www.eecs.ucf.edu/~jjl/\"\u003ebook\u003c/a\u003e was recommended to me by Blair MacIntyre. \u003c/p\u003e\n\u003cp\u003eThese notes are from the 2nd edition, published in 2017.\u003c/p\u003e\n\u003cp\u003eChapter 1.1\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003e\"A VR application may allow a user to place an object anywhere in 3D space, with any orientation-a task for which a 2D mouse is inadequate.\"\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cp\u003eRight away this reminds me of the \u003ca href=\"https://www.amazon.com/Brave-NUI-World-Designing-Interfaces/dp/0123822319\"\u003eBrave NUI World\u003c/a\u003e book. \u003c/p\u003e\n\u003cp\u003eChapter 1.2\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003e\"...development of 3D UIs is one of the most exciting areas of research in human-computer interaction (HCI) today.\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cp\u003e...when is \"today\" in this book? 2017?\nMy today is Feb 1, 2022 at 10:31:43 AM\u003c/p\u003e\n\u003cp\u003eChapter 1.3: Terminology\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003eDegrees of freedom: The number of independent dimensions of the motion of a body. \u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cp\u003eAt the end of this chapter the authors arrive at this definition:\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003e3D interaction: ...if a user tours a model of a building on her desktop computer by choosing viewpoints from a traditional menu, no 3D interaction has taken place. On the other hand, 3D interaction does not necessarily mean that 3D input devices are used...\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cp\u003eGood distinction between the input device and the type of interaction. I could use a 3D-capable input device to interact with a 2D environment, or a 2D input device to interact with a 3D environment.\u003c/p\u003e\n\u003cp\u003eChapter 2.1: History of 3D UIs\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003e...unforseen usability issues\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cp\u003eTodo: read Sutherland(1968)\u003c/p\u003e\n\u003cp\u003eOne of the first popular magazine covers about Virtual Reality wasn't about a VR headset, but instead showed the \"DataGlove\" which was a hand worn glove meant to manipulate a virtual environment.\u003c/p\u003e\n\u003cp\u003eMany difficult details to work out in these devices:\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003ehow to know when a user is pointing to something in a VR environment?\u003c/li\u003e\n\u003cli\u003ehow to handle the user putting a device down to use another input device?\n...side note: my Oculus Quest handles both of those quite well\u003c/li\u003e\n\u003c/ul\u003e\n\u003cblockquote\u003e\n\u003cp\u003edesigners of 3D UIs...still are faced with technological limitations, such as input latency, limited 3D workspace, tracing dropouts and cumbersome devices that must be worn, held, or attached.\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cblockquote\u003e\n\u003cp\u003eThus, the new subarea of HCI is termed 3D interaction, 3D user interface design, or 3D HCI\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cul\u003e\n\u003cli\u003eIEEE Symposium on 3D User Interfaces\u003c/li\u003e\n\u003cli\u003eACM Symposium on Spatial User Interaction\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003eChapter 2.2: Roadmap to 3D UIs\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003eThe defining feature of 3D UIs is that users are viewing and acting in a real and/or virtual 3D space.\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cp\u003eInteraction Techniques for Composite and Application-Specific Tasks\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003e...complex tasks in 3D UI are often \u003cstrong\u003ecomposed\u003c/strong\u003e of the universal tasks...\n(emphasis mine)\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cblockquote\u003e\n\u003cp\u003e...the task of cloning objects in space could ne see as a \u003cstrong\u003ecomposite\u003c/strong\u003e task involving selection, system control, and manipulation, but there are benefits to considering this task independently an designing specific interaction techniques for it(Chen and Bowman 2009).\n(emphasis mine)\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cblockquote\u003e\n\u003cp\u003e...it is not trivial to put these elements together in a usable and understandable way\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cp\u003e\u003cstrong\u003eThree Important Terms\u003c/strong\u003e\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003epresence\n\u003cblockquote\u003e\n\u003cp\u003ethe feeling of \"being there\" tha you get when imersed in a virtual 3D world (Slater et al. 1994)\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003c/li\u003e\n\u003cli\u003ecybersickness \n\u003cblockquote\u003e\n\u003cp\u003efeelings of physical discomfort brought on by the use of immersive systems (Kennedy et al. 2000)\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003c/li\u003e\n\u003cli\u003einteraction fidelity\n\u003cblockquote\u003e\n\u003cp\u003ethe level of realism in the UI (McMahan et al. 2012)\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e2.2.3: Areas Impacted by 3D UIs\nMedicine and Psychiatry\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003eFor example, someone with a fear of snakes might be able to pick up and handle a virtual snake with a combination of 3D input devices and a realistic toy snake\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cp\u003e... this reminds me of Dzongsar Khentsye Rinpoche's story of the snake, and how a Buddhist teacher might try to work with a student with such a fear.\ntodo: insert that clip here\u003c/p\u003e\n\u003cp\u003eOn HCI\nI'm going to quote this short paragraph in full:\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003eThe study of HCI has revealed many areas not addressed by traditional HCI. For example, what metrics should be used to study the user experience of a system? In typical UIs, metrics such as speed, accuracy, satisfaction, and perceived ease of use may be sufficient; in 3D UIs, we also need to asses things like physical comfort and presence. The development of heuristics or guidelines for good UI design is another area that has been studied thoroughly in traditional HCI but that requires further thought and expansion for 3D UIs. \u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cp\u003eChapter 3\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003e\"human factors\" refers to the capabilities, characteristics, and limitations the human user...\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cblockquote\u003e\n\u003cp\u003e...we focus on three interconnected human factors categories perceptual, cognitive, and physical ergonomics issues \u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cblockquote\u003e\n\u003cp\u003eWhile attention is still not fully understood, evidence indicates it has three components: orienting to sensory events, detecting signals doe focused processing, maintaining a vigilant or alert state.\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cblockquote\u003e\n\u003cp\u003eFor example, consider a busy train station - a friend may be waving and, once you focus you attention on her, you may notice she is also calling your name. \u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cblockquote\u003e\n\u003cp\u003e...decision-making processes are in the center of information processing and depend on capturing, organizing, and combining information from various sources\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cblockquote\u003e\n\u003cp\u003eSkills can be a major focus of a 3DUI...skill transfer is an important factor in many VR training applications, with the expectation that skills learned in a VE can also be applied in the real world\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cp\u003e\u003cem\u003eindex of performance\u003c/em\u003e\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eIP = (ID / MT)\u003c/li\u003e\n\u003cli\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cem\u003eindex of difficulty\u003c/em\u003e / \u003cem\u003emovement time\u003c/em\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003cblockquote\u003e\n\u003cp\u003e\u003cem\u003eindex of performance\u003c/em\u003eis expressed in bits per second and has been used to define the performance of many input devices. \u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cul\u003e\n\u003cli\u003ethe hand itself = 10.6 bits/s\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cul\u003e\n\u003cli\u003ea mouse = 10.4 bits/s\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cul\u003e\n\u003cli\u003ea joystick = 5.0 bits/s\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cul\u003e\n\u003cli\u003ea touchpad = 1.6  bits/s\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cul\u003e\n\u003cli\u003ewell...I am much faster with this mac's trackpad than any mouse \u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/blockquote\u003e\n\u003cp\u003e\u003cem\u003esteering law\u003c/em\u003e\n...predictive model that describes the time to steer through a tunnel\u003c/p\u003e\n\u003cp\u003e[ ]install latex and put in the formula\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003eocclusion\u003c/strong\u003e\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003ealso called contour interruption or interposition\nthe phenomenon in which an object closer to the user partially obstructs the view of an object farther away\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cp\u003e\u003cstrong\u003elinear perspective\u003c/strong\u003e\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003ethe phenomenon what makes parallel lines appear to converge as they move away from the viewer\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cp\u003e...incidentally, this kind of phenomenon is what flat earthers use to 'prove' that the earth is flat. They say this is why you can't see objects which are actually beyond the horizon. They say no, they are just too far away to see, but that if you had a powerful enough telescope and nothing was in the way, you could Africa from NYC. See Eddie Bravo ranting on Rogan's show. Sigh. 🙄\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003eaerial perspective\u003c/strong\u003e\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003ealso called atmospheric attenuation\nis a cue that gauges relative distance by measuring the scattering and absorption of light through the atmosphere. For example, a nearer object will have more color saturation and brightness, while a more distant object will be duller and dimmer. \u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cp\u003e\u003cstrong\u003emotion parallax\u003c/strong\u003e\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003edepth information is conveyed when objects are \u003cem\u003emoving\u003c/em\u003e relative to the viewer\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cp\u003eaudio - binaural cues\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003eThe fundamental problem with binaural cues id that there are locations relative to the listener's head where ambiguous situations occur...one of the ways...can deal with ambiguous binaural cues is with dynamic movement of the...head or the sound source itself.\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cp\u003eReverberation, of course, is a useful way to locate a sound source.\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003evestibular\u003c/strong\u003e\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003eThe vestibular system is closely tied to the ear and auditory nerves...the vestibular sense can be best understood as the human balance system. \u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cblockquote\u003e\n\u003cp\u003e...the vestibular system affects the control of the eyes, neck, and trunk/limbs\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cblockquote\u003e\n\u003cp\u003eIt is believed \u003cem\u003ecybersickness\u003c/em\u003e is caused by a mismatch between visual and vestibular cues.\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003ch2 id=\"somatosensory\"\u003esomatosensory\u003ca aria-hidden=\"true\" class=\"anchor-heading icon-link\" href=\"#somatosensory\"\u003e\u003c/a\u003e\u003c/h2\u003e\n\u003cp\u003e3.3.3\u003c/p\u003e\n\u003cp\u003eThis is also called the haptic system.\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003eThe somatosensory, or haptic, system is an important perceptual system dealing with what we feel when touching or grasping objects and how we perceive the location and movement of the parts of our bodies. \u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cp\u003e[ ]pickup here\u003c/p\u003e","noteIndex":{"id":"wn8PE1RhG0znK1alrGFYv","title":"Home","desc":"Personal Website of Bill Moriarty","updated":1673749560079,"created":1631901573363,"custom":{"nav_order":0,"permalink":"/"},"fname":"root","type":"note","vault":{"fsPath":"vault"},"contentHash":"ffde8fd27559f8d19705063ad3e5f2c0","links":[],"anchors":{},"children":["Advice-for-Artists","Apple-Augmented-Reality-Notes","Augmented-Reality-Project","Books","Computer-Vision-References","git-commands-reference","Giving-Up-A-Smartphone","Linear-Algebra","Machine-Learning","Microphone-Reviews","Money-\u0026-Finances","Normalize-Data","Python-References","TypeScript","Unity","fakolx1uvji6122gd5tci4c","Recordings"],"parent":null,"data":{},"body":"Hello. I work as software developer \u0026 research associate focusing on augmented reality and virtual reality in the [GT Applied Research team](https://www.jpmorgan.com/technology/applied-research).\n\nTrying out  \u003ca rel=\"me\" href=\"https://mastodon.social/@billmoriarty\"\u003eMastodon\u003c/a\u003e\n\nI studied computer science and software design at Temple University.\n\nI have made a lot of recordings as a record producer, recording engineer, mixing engineer, and sometimes a musician. You may have even heard some of them.\n\nOld podcast interviewing people changing careers into tech:\nhttps://anchor.fm/possible-paths\n\nMy partner is an artist \u0026 UX designer.\n\nWe are the parents of one kid.\n\nI spend a lot of time volunteering with The Wisdom Seat: a group of Buddhist teachers and practitioners who host spiritual teachers, sponsor meditation retreats and offer support to people on the Buddhist path.\n\nThe Wisdom Seat\nhttps://thewisdomseat.org\n\nPodcast for The Wisdom Seat\nhttps://anchor.fm/the-wisdom-seat\n\nRecording was my first love. At age 13 I got a guitar and a 4 track recorder. I have been making recordings as long as I’ve been around music.\n\nHear my own music here ///️\nhttps://open.spotify.com/artist/1eIs7Nuo5VeloBHoYr9fAB?si=H2TkGmQxSniZV_Wsii3Bag\nhttps://billmoriarty.bandcamp.com\n\nI will keep playing with recording until I’m dead 💀💀💀\n\nI have written some articles for one of my favorite magazines: [TapeOp️]([https://tapeop.com/searches/194699/](https://tapeop.com/searches/194699/)) \nhttps://tapeop.com/searches/194699/\n\n\n\n\u003ciframe src=\"https://relentless-architect-4898.ck.page/5ddeb58ffe\" style=\"width:100%; height:500px; border:none; \"\u003e\u003c/iframe\u003e\n\n![Studio](/assets/images/thespot.jpg)\n"},"collectionChildren":null,"customHeadContent":null,"config":{"version":5,"dev":{"enablePreviewV2":true},"commands":{"lookup":{"note":{"selectionMode":"extract","confirmVaultOnCreate":false,"leaveTrace":false,"bubbleUpCreateNew":true,"fuzzThreshold":0.2,"vaultSelectionModeOnCreate":"smart"}},"insertNote":{"initialValue":"templates"},"insertNoteLink":{"aliasMode":"none","enableMultiSelect":false},"insertNoteIndex":{"enableMarker":false},"randomNote":{},"copyNoteLink":{"aliasMode":"title"},"templateHierarchy":"template"},"workspace":{"vaults":[{"fsPath":"vault"}],"journal":{"dailyDomain":"daily","name":"journal","dateFormat":"y.MM.dd","addBehavior":"childOfDomain"},"scratch":{"name":"scratch","dateFormat":"y.MM.dd.HHmmss","addBehavior":"asOwnDomain"},"graph":{"zoomSpeed":1,"createStub":false},"enableAutoCreateOnDefinition":false,"enableXVaultWikiLink":false,"enableRemoteVaultInit":true,"workspaceVaultSyncMode":"noCommit","enableAutoFoldFrontmatter":false,"maxPreviewsCached":10,"maxNoteLength":204800,"task":{"name":"","dateFormat":"","addBehavior":"childOfCurrent","statusSymbols":{"":" ","wip":"w","done":"x","assigned":"a","moved":"m","blocked":"b","delegated":"l","dropped":"d","pending":"y"},"prioritySymbols":{"H":"high","M":"medium","L":"low"},"todoIntegration":false,"createTaskSelectionType":"selection2link","taskCompleteStatus":["done","x"]},"enableUserTags":true,"enableHashTags":true,"dendronVersion":"0.85.0","enableEditorDecorations":true,"enableFullHierarchyNoteTitle":false,"templateHierarchy":"template","enableSmartRefs":false},"preview":{"enableFMTitle":true,"enableNoteTitleForLink":true,"enableMermaid":true,"enablePrettyRefs":true,"enableKatex":true,"automaticallyShowPreview":false,"enableFrontmatterTags":true,"enableHashesForFMTags":false},"publishing":{"enableFMTitle":true,"enableNoteTitleForLink":true,"enablePrettyRefs":true,"enableKatex":true,"copyAssets":true,"siteHierarchies":["root"],"writeStubs":false,"siteRootDir":"docs","seo":{"title":"Bill Moriarty","description":"Personal knowledge space"},"github":{"enableEditLink":true,"editLinkText":"Edit this page on GitHub","editBranch":"main","editViewMode":"tree"},"enableSiteLastModified":true,"enableFrontmatterTags":true,"enableHashesForFMTags":false,"enableRandomlyColoredTags":true,"enableTaskNotes":true,"enablePrettyLinks":true,"searchMode":"lookup","ga":{"tracking":"G-QF7TXKLET1"},"enableMermaid":true,"siteUrl":"https://billmoriarty.com","duplicateNoteBehavior":{"action":"useVault","payload":["vault"]},"siteFaviconPath":"favicon.ico","siteIndex":"root"}}},"__N_SSG":true},"page":"/notes/[id]","query":{"id":"3D-User-Interfaces"},"buildId":"oV1AIkUsFrvV00codF4vq","isFallback":false,"gsp":true,"scriptLoader":[]}</script></body></html>
